@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2016-12-30T19:49:10.374Z", 
+    "created_at": "2016-12-30T19:58:05.496Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -56.6
+          -53
         ]
       ], 
-      "timestamp": "2016-12-30T19:48:56.000Z"
+      "timestamp": "2016-12-30T19:57:51.000Z"
     }, 
     "pump": {
       "battery": {
@@ -18,90 +18,91 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-12-30T19:43:31.000Z", 
+        "timestamp": "2016-12-30T19:53:23.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 103.525, 
-      "clock": "2016-12-30T11:43:34-08:00"
+      "reservoir": 103.45, 
+      "clock": "2016-12-30T11:53:26-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 98, 
+        "bg": 76, 
         "temp": "absolute", 
-        "snoozeBG": 95, 
-        "timestamp": "2016-12-30T19:46:34.000Z", 
-        "rate": 0.375, 
-        "reason": "COB: 0, Dev: -16, BGI: 0.36, ISF: 89, Target: 100; Eventual BG 95 < 100, setting 0.375U/hr", 
+        "snoozeBG": 42, 
+        "timestamp": "2016-12-30T19:57:15.000Z", 
+        "rate": 0, 
+        "reason": "COB: 0, Dev: -50, BGI: 0.49, ISF: 89, Target: 100; Eventual BG 42 < 100, setting -2U/hr", 
         "COB": 0, 
-        "eventualBG": 95, 
+        "eventualBG": 42, 
         "duration": 30, 
-        "tick": -2, 
-        "IOB": -0.141
+        "tick": -8, 
+        "IOB": -0.18
       }, 
       "iob": {
-        "netbasalinsulin": 0, 
-        "timestamp": "2016-12-30T19:43:34.000Z", 
-        "activity": -0.0008, 
-        "basaliob": -0.141, 
+        "netbasalinsulin": -0.05, 
+        "timestamp": "2016-12-30T19:53:26.000Z", 
+        "activity": -0.0011, 
+        "basaliob": -0.18, 
         "hightempinsulin": 0.5, 
         "bolussnooze": 0, 
-        "iob": -0.141
+        "iob": -0.18
       }, 
       "enacted": {
-        "bg": 98, 
+        "bg": 76, 
         "temp": "absolute", 
-        "snoozeBG": 95, 
+        "snoozeBG": 42, 
         "recieved": true, 
         "predBGs": {
           "IOB": [
-            98, 
-            96, 
-            94, 
-            93, 
-            91, 
-            90, 
-            89, 
-            89, 
-            88, 
-            88, 
-            88, 
-            88, 
-            89, 
-            89, 
-            90, 
-            90, 
-            91, 
-            91, 
-            92, 
-            92, 
-            93, 
-            93, 
-            93, 
-            94, 
-            94, 
-            94, 
-            95, 
-            95, 
-            95, 
-            96
+            76, 
+            69, 
+            62, 
+            56, 
+            51, 
+            47, 
+            43, 
+            40, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            40, 
+            41, 
+            41, 
+            42, 
+            43, 
+            44, 
+            45, 
+            45, 
+            46, 
+            47, 
+            47, 
+            48, 
+            48, 
+            49, 
+            49, 
+            50
           ]
         }, 
-        "reason": "COB: 0, Dev: -16, BGI: 0.36, ISF: 89, Target: 100; Eventual BG 95 < 100, setting 0.375U/hr", 
-        "rate": 0.375, 
+        "reason": "COB: 0, Dev: -50, BGI: 0.49, ISF: 89, Target: 100; Eventual BG 42 < 100, setting -2U/hr", 
+        "rate": 0, 
         "COB": 0, 
-        "eventualBG": 95, 
-        "timestamp": "2016-12-30T19:48:49.000Z", 
+        "eventualBG": 42, 
+        "timestamp": "2016-12-30T19:57:44.000Z", 
         "duration": 30, 
-        "tick": -2, 
-        "IOB": -0.141
+        "tick": -8, 
+        "IOB": -0.18
       }
     }, 
     "uploader": {
       "battery": 79, 
-      "batteryVoltage": 3973
+      "batteryVoltage": 3968
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "5866ba36b21ed70d37a5cf24"
+    "_id": "5866bc4db21ed70d37a5cf25"
   }
 ]
