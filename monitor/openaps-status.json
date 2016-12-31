@@ -7,79 +7,36 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-31T16:42:06.000Z", 
+      "timestamp": "2016-12-31T16:52:39.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 81.7, 
-    "clock": "2016-12-31T08:42:09-08:00"
+    "reservoir": 80.875, 
+    "clock": "2016-12-31T08:51:30-08:00"
   }, 
   "uploader": {
-    "battery": 95, 
-    "batteryVoltage": 4133
+    "battery": 94, 
+    "batteryVoltage": 4123
   }, 
   "openaps": {
     "suggested": {
-      "bg": 97, 
-      "temp": "absolute", 
-      "snoozeBG": 96, 
-      "timestamp": "2016-12-31T16:45:58.000Z", 
-      "reason": "COB: 0, Dev: -6, BGI: 0.58, ISF: 89, Target: 100; Eventual BG 96 < 100, setting 0.425U/hr", 
-      "rate": 0.425, 
-      "COB": 0, 
-      "eventualBG": 96, 
-      "duration": 30, 
-      "tick": -1, 
-      "IOB": -0.06
+      "timestamp": "2016-12-31T16:55:28.000Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Dec 31 2016 08:45:00 GMT-0800 (PST) but your system time is Sat Dec 31 2016 08:55:28 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": -0.15, 
-      "timestamp": "2016-12-31T16:42:09.000Z", 
-      "activity": -0.0013, 
-      "basaliob": -0.06, 
+      "netbasalinsulin": -0.2, 
+      "timestamp": "2016-12-31T16:51:30.000Z", 
+      "activity": -0.0009, 
+      "basaliob": -0.098, 
       "hightempinsulin": 0.05, 
-      "bolussnooze": 0, 
-      "iob": -0.06
+      "bolussnooze": 0.744, 
+      "iob": 0.65
     }, 
     "enacted": {
       "bg": 97, 
       "temp": "absolute", 
       "snoozeBG": 96, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          97, 
-          96, 
-          95, 
-          95, 
-          94, 
-          94, 
-          93, 
-          93, 
-          93, 
-          93, 
-          93, 
-          93, 
-          93, 
-          93, 
-          93, 
-          93, 
-          93, 
-          93, 
-          93, 
-          92, 
-          92, 
-          92, 
-          92, 
-          91, 
-          91, 
-          91, 
-          91, 
-          91, 
-          91, 
-          90
-        ]
-      }, 
       "rate": 0.425, 
       "reason": "COB: 0, Dev: -6, BGI: 0.58, ISF: 89, Target: 100; Eventual BG 96 < 100, setting 0.425U/hr", 
       "COB": 0, 
@@ -95,9 +52,9 @@
       [
         null, 
         0, 
-        -51.4
+        -60
       ]
     ], 
-    "timestamp": "2016-12-31T16:46:38.000Z"
+    "timestamp": "2016-12-31T16:55:35.000Z"
   }
 }
