@@ -7,88 +7,91 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-03T10:35:56.029Z", 
+      "timestamp": "2017-01-03T10:45:22.455Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 68.925, 
-    "clock": "2017-01-03T02:36:00-08:00"
+    "reservoir": 68.775, 
+    "clock": "2017-01-03T02:45:25-08:00"
   }, 
   "uploader": {
-    "battery": 69, 
-    "batteryVoltage": 3869
+    "battery": 70, 
+    "batteryVoltage": 3882
   }, 
   "openaps": {
     "suggested": {
-      "bg": 148, 
+      "bg": 172, 
       "temp": "absolute", 
-      "snoozeBG": 117, 
-      "timestamp": "2017-01-03T10:39:57.442Z", 
-      "predBGs": {
-        "IOB": [
-          148, 
-          147, 
-          145, 
-          144, 
-          142, 
-          140, 
-          138, 
-          136, 
-          134, 
-          132, 
-          130, 
-          127, 
-          125, 
-          123, 
-          121, 
-          119, 
-          117, 
-          116, 
-          114, 
-          113, 
-          111, 
-          110, 
-          110, 
-          109, 
-          108, 
-          108, 
-          107, 
-          107, 
-          106, 
-          106, 
-          106, 
-          106, 
-          105
-        ]
-      }, 
-      "reason": "COB: 0, Dev: 13, BGI: -3.27, ISF: 82, Target: 96; Eventual BG 117 >= 96, temp 1.05<1.1U/hr, but 28m left and 1.05 ~ req 1.1U/hr: no action required", 
+      "snoozeBG": 169, 
+      "timestamp": "2017-01-03T10:49:40.118Z", 
+      "reason": "COB: 0, Dev: 43, BGI: -3.23, ISF: 82, Target: 96; Eventual BG 169 >= 96, temp 1.05<2.5U/hr", 
+      "rate": 2.5, 
       "COB": 0, 
-      "eventualBG": 117, 
-      "tick": -1, 
-      "IOB": 0.532
+      "eventualBG": 169, 
+      "duration": 30, 
+      "tick": "+25", 
+      "IOB": 0.558
     }, 
     "iob": {
-      "netbasalinsulin": 1.4, 
-      "timestamp": "2017-01-03T10:36:00.000Z", 
-      "activity": 0.008, 
-      "basaliob": 0.532, 
-      "hightempinsulin": 1.5, 
+      "netbasalinsulin": 1.35, 
+      "timestamp": "2017-01-03T10:45:25.000Z", 
+      "activity": 0.0079, 
+      "basaliob": 0.558, 
+      "hightempinsulin": 1.45, 
       "bolussnooze": 0, 
-      "iob": 0.532
+      "iob": 0.558
     }, 
     "enacted": {
-      "bg": 150, 
+      "bg": 172, 
       "temp": "absolute", 
-      "snoozeBG": 115, 
+      "snoozeBG": 169, 
       "recieved": true, 
-      "rate": 1, 
-      "reason": "COB: 0, Dev: 13, BGI: -3.44, ISF: 82, Target: 96; Eventual BG 115 >= 96, temp 0<1U/hr", 
+      "predBGs": {
+        "IOB": [
+          172, 
+          175, 
+          178, 
+          180, 
+          182, 
+          183, 
+          183, 
+          184, 
+          183, 
+          182, 
+          181, 
+          179, 
+          177, 
+          175, 
+          172, 
+          170, 
+          168, 
+          167, 
+          165, 
+          164, 
+          162, 
+          161, 
+          160, 
+          159, 
+          158, 
+          158, 
+          157, 
+          157, 
+          156, 
+          156, 
+          155, 
+          155, 
+          155, 
+          154
+        ]
+      }, 
+      "rate": 2.5, 
+      "reason": "COB: 0, Dev: 43, BGI: -3.23, ISF: 82, Target: 96; Eventual BG 169 >= 96, temp 1.05<2.5U/hr", 
       "COB": 0, 
-      "eventualBG": 115, 
-      "timestamp": "2017-01-03T10:21:22.421Z", 
+      "eventualBG": 169, 
+      "timestamp": "2017-01-03T10:50:48.298Z", 
       "duration": 30, 
-      "tick": "+5", 
-      "IOB": 0.586
+      "tick": "+25", 
+      "IOB": 0.558
     }
   }, 
   "mmtune": {
@@ -96,9 +99,9 @@
       [
         null, 
         0, 
-        -88.4
+        -81.8
       ]
     ], 
-    "timestamp": "2017-01-03T10:40:09.322Z"
+    "timestamp": "2017-01-03T10:50:56.168Z"
   }
 }
