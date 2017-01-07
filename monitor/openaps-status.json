@@ -3,80 +3,34 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.58
+      "voltage": 1.57
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-07T21:56:12.521Z", 
+      "timestamp": "2017-01-07T22:06:10.383Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 120.475, 
-    "clock": "2017-01-07T13:56:18-08:00"
+    "clock": "2017-01-07T14:06:16-08:00"
   }, 
   "uploader": {
-    "battery": 61, 
-    "batteryVoltage": 3793
+    "battery": 59, 
+    "batteryVoltage": 3774
   }, 
   "openaps": {
     "suggested": {
-      "bg": 95, 
-      "temp": "absolute", 
-      "snoozeBG": 97, 
-      "timestamp": "2017-01-07T22:00:30.826Z", 
-      "predBGs": {
-        "IOB": [
-          95, 
-          94, 
-          93, 
-          92, 
-          91, 
-          91, 
-          91, 
-          91, 
-          91, 
-          91, 
-          92, 
-          93, 
-          94, 
-          95, 
-          96, 
-          97, 
-          99, 
-          100, 
-          101, 
-          103, 
-          104, 
-          105, 
-          107, 
-          108, 
-          109, 
-          110, 
-          111, 
-          112, 
-          113, 
-          113, 
-          114, 
-          115, 
-          115, 
-          115, 
-          116
-        ]
-      }, 
-      "reason": "COB: 0, Dev: -10, BGI: 0.45, ISF: 90, Target: 100; Eventual BG 97 < 100, temp 0 ~< req 0.475U/hr", 
-      "COB": 0, 
-      "eventualBG": 97, 
-      "tick": "+3", 
-      "IOB": -0.129
+      "timestamp": "2017-01-07T22:09:49.507Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Jan 07 2017 13:58:33 GMT-0800 (PST) but your system time is Sat Jan 07 2017 14:09:49 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": -0.35, 
-      "timestamp": "2017-01-07T21:56:18.000Z", 
-      "activity": -0.001, 
-      "basaliob": -0.129, 
+      "netbasalinsulin": -0.45, 
+      "timestamp": "2017-01-07T22:06:16.000Z", 
+      "activity": -0.0007, 
+      "basaliob": -0.221, 
       "hightempinsulin": 0.3, 
       "bolussnooze": 0, 
-      "iob": -0.129
+      "iob": -0.221
     }, 
     "enacted": {
       "bg": 101, 
@@ -98,9 +52,9 @@
       [
         null, 
         0, 
-        -51.4
+        -57.4
       ]
     ], 
-    "timestamp": "2017-01-07T22:00:38.666Z"
+    "timestamp": "2017-01-07T22:09:57.367Z"
   }
 }
