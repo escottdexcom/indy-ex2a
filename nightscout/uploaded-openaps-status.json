@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-01-08T19:30:50.075Z", 
+    "created_at": "2017-01-08T19:41:54.732Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -57.8
+          -60
         ]
       ], 
-      "timestamp": "2017-01-08T19:30:36.282Z"
+      "timestamp": "2017-01-08T19:41:40.789Z"
     }, 
     "pump": {
       "battery": {
@@ -18,87 +18,93 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-01-08T19:26:54.259Z", 
+        "timestamp": "2017-01-08T19:36:52.926Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 97.725, 
-      "clock": "2017-01-08T11:27:01-08:00"
+      "reservoir": 97.675, 
+      "clock": "2017-01-08T11:36:59-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 74, 
+        "bg": 71, 
         "temp": "absolute", 
-        "snoozeBG": 71, 
-        "timestamp": "2017-01-08T19:29:57.891Z", 
-        "rate": 0.2, 
-        "reason": "COB: 0, Dev: -9, BGI: -2.18, ISF: 91, Target: 80; Eventual BG 71 < 80, setting 0.2U/hr", 
+        "snoozeBG": 80, 
+        "timestamp": "2017-01-08T19:40:21.309Z", 
+        "rate": 0.6, 
+        "reason": "COB: 0, Dev: -5, BGI: -1.41, ISF: 91, Target: 80; Eventual BG 80 > 80 but Min. Delta -2.26 < Exp. Delta -1.4; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
         "COB": 0, 
-        "eventualBG": 71, 
+        "eventualBG": 80, 
         "duration": 30, 
-        "tick": -4, 
-        "IOB": -0.066
+        "tick": -2, 
+        "IOB": -0.151
       }, 
       "iob": {
-        "netbasalinsulin": 0.5, 
-        "timestamp": "2017-01-08T19:27:01.000Z", 
-        "activity": 0.0048, 
-        "basaliob": -0.066, 
+        "netbasalinsulin": 0.55, 
+        "timestamp": "2017-01-08T19:36:59.000Z", 
+        "activity": 0.0031, 
+        "basaliob": -0.151, 
         "hightempinsulin": 1.15, 
         "bolussnooze": 0, 
-        "iob": -0.066
+        "iob": -0.151
       }, 
       "enacted": {
-        "bg": 74, 
+        "bg": 71, 
         "temp": "absolute", 
-        "snoozeBG": 71, 
+        "snoozeBG": 80, 
         "recieved": true, 
         "predBGs": {
           "IOB": [
-            74, 
-            70, 
+            71, 
+            69, 
             67, 
-            64, 
-            62, 
-            60, 
-            59, 
-            58, 
-            57, 
-            57, 
-            57, 
-            58, 
-            59, 
-            59, 
-            60, 
-            61, 
-            62, 
-            63, 
-            64, 
-            64, 
+            66, 
+            65, 
+            65, 
+            65, 
             65, 
             66, 
             66, 
-            67, 
-            67, 
-            67, 
-            68
+            68, 
+            69, 
+            70, 
+            72, 
+            74, 
+            75, 
+            77, 
+            79, 
+            81, 
+            82, 
+            83, 
+            85, 
+            86, 
+            87, 
+            88, 
+            89, 
+            89, 
+            90, 
+            90, 
+            91, 
+            91, 
+            91, 
+            92
           ]
         }, 
-        "reason": "COB: 0, Dev: -9, BGI: -2.18, ISF: 91, Target: 80; Eventual BG 71 < 80, setting 0.2U/hr", 
-        "rate": 0.2, 
+        "reason": "COB: 0, Dev: -5, BGI: -1.41, ISF: 91, Target: 80; Eventual BG 80 > 80 but Min. Delta -2.26 < Exp. Delta -1.4; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+        "rate": 0.6, 
         "COB": 0, 
-        "eventualBG": 71, 
-        "timestamp": "2017-01-08T19:30:28.451Z", 
+        "eventualBG": 80, 
+        "timestamp": "2017-01-08T19:41:32.959Z", 
         "duration": 30, 
-        "tick": -4, 
-        "IOB": -0.066
+        "tick": -2, 
+        "IOB": -0.151
       }
     }, 
     "uploader": {
-      "battery": 72, 
-      "batteryVoltage": 3898
+      "battery": 71, 
+      "batteryVoltage": 3891
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "5872936a59087f1978d2aa8b"
+    "_id": "5872960259087f1978d2aa8e"
   }
 ]
