@@ -7,131 +7,85 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-08T01:18:24.767Z", 
+      "timestamp": "2017-01-08T01:29:24.283Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 115.125, 
-    "clock": "2017-01-07T17:18:31-08:00"
+    "clock": "2017-01-07T17:29:30-08:00"
   }, 
   "uploader": {
-    "battery": 54, 
-    "batteryVoltage": 3720
+    "battery": 53, 
+    "batteryVoltage": 3707
   }, 
   "openaps": {
     "suggested": {
-      "bg": 176, 
+      "bg": 156, 
       "temp": "absolute", 
-      "snoozeBG": 68, 
-      "timestamp": "2017-01-08T01:23:01.849Z", 
-      "predBGs": {
-        "aCOB": [
-          176, 
-          171, 
-          162, 
-          152, 
-          143, 
-          135, 
-          127, 
-          120, 
-          113, 
-          107, 
-          102, 
-          98, 
-          94, 
-          91, 
-          88, 
-          86, 
-          85, 
-          83, 
-          83, 
-          82, 
-          82, 
-          82, 
-          82, 
-          82, 
-          82, 
-          83, 
-          83, 
-          84, 
-          85, 
-          85, 
-          86, 
-          86, 
-          87, 
-          87, 
-          88
-        ], 
-        "IOB": [
-          176, 
-          166, 
-          157, 
-          148, 
-          139, 
-          130, 
-          122, 
-          115, 
-          109, 
-          103, 
-          98, 
-          93, 
-          89, 
-          86, 
-          84, 
-          82, 
-          80, 
-          79, 
-          78, 
-          77, 
-          77, 
-          77, 
-          77, 
-          77, 
-          78, 
-          78, 
-          79, 
-          79, 
-          80, 
-          81, 
-          81, 
-          82, 
-          82, 
-          83, 
-          83, 
-          83, 
-          83, 
-          83, 
-          84
-        ]
-      }, 
-      "reason": "COB: 1, Dev: -11, BGI: -7.92, ISF: 90, Target: 100; Eventual BG 68 < 100, setting -0.825U/hr, but 23m left and 0 ~ req 0U/hr: no action required", 
+      "snoozeBG": 42, 
+      "timestamp": "2017-01-08T01:33:24.765Z", 
+      "reason": "COB: 1, Dev: -48, BGI: -7.74, ISF: 90, Target: 100; Eventual BG 42 < 100, setting -1.975U/hr", 
+      "rate": 0, 
       "COB": 1, 
-      "eventualBG": 68, 
-      "tick": -8, 
-      "IOB": 1.073
+      "eventualBG": 42, 
+      "duration": 30, 
+      "tick": -20, 
+      "IOB": 0.732
     }, 
     "iob": {
-      "netbasalinsulin": 2.3, 
-      "timestamp": "2017-01-08T01:18:31.000Z", 
-      "activity": 0.0176, 
-      "basaliob": 1.073, 
+      "netbasalinsulin": 2.15, 
+      "timestamp": "2017-01-08T01:29:30.000Z", 
+      "activity": 0.0172, 
+      "basaliob": 0.732, 
       "hightempinsulin": 2.35, 
       "bolussnooze": 0, 
-      "iob": 1.073
+      "iob": 0.732
     }, 
     "enacted": {
-      "bg": 196, 
+      "bg": 156, 
       "temp": "absolute", 
-      "snoozeBG": 52, 
+      "snoozeBG": 42, 
       "recieved": true, 
+      "predBGs": {
+        "aCOB": [
+          156, 
+          142, 
+          124, 
+          107, 
+          92, 
+          79, 
+          67, 
+          56, 
+          47, 
+          40, 
+          39, 
+          39, 
+          39
+        ], 
+        "IOB": [
+          156, 
+          137, 
+          119, 
+          103, 
+          88, 
+          74, 
+          62, 
+          52, 
+          43, 
+          39, 
+          39, 
+          39, 
+          39
+        ]
+      }, 
       "rate": 0, 
-      "reason": "COB: 2, Dev: -26, BGI: -7.92, ISF: 90, Target: 100; Eventual BG 52 < 100, setting -1.525U/hr", 
-      "COB": 2, 
-      "eventualBG": 52, 
-      "timestamp": "2017-01-08T01:13:47.364Z", 
+      "reason": "COB: 1, Dev: -48, BGI: -7.74, ISF: 90, Target: 100; Eventual BG 42 < 100, setting -1.975U/hr", 
+      "COB": 1, 
+      "eventualBG": 42, 
+      "timestamp": "2017-01-08T01:36:12.907Z", 
       "duration": 30, 
-      "tick": -14, 
-      "IOB": 1.314
+      "tick": -20, 
+      "IOB": 0.732
     }
   }, 
   "mmtune": {
@@ -139,9 +93,9 @@
       [
         null, 
         0, 
-        -63
+        -61
       ]
     ], 
-    "timestamp": "2017-01-08T01:23:10.489Z"
+    "timestamp": "2017-01-08T01:36:20.747Z"
   }
 }
