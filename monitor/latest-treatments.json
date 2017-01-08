@@ -1,0 +1,18 @@
+{
+  "_id": "58729e9365110bbfc1952708",
+  "_type": "CalBGForPH",
+  "_description": "CalBGForPH 2017-01-08T12:16:08 head[2], body[0] op[0x0a]",
+  "timestamp": "2017-01-08T12:16:08-08:00",
+  "_body": "",
+  "_head": "0a41",
+  "amount": 65,
+  "_date": "08502c6811",
+  "eventType": "BG Check",
+  "glucose": 65,
+  "glucoseType": "Finger",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
+  "created_at": "2017-01-08T12:16:08-08:00",
+  "enteredBy": "openaps://medtronic/723",
+  "carbs": null,
+  "insulin": null
+}
