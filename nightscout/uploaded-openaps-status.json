@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-01-09T11:08:23.938Z", 
+    "created_at": "2017-01-09T11:40:44.139Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -83.4
+          -84
         ]
       ], 
-      "timestamp": "2017-01-09T11:08:10.003Z"
+      "timestamp": "2017-01-09T11:40:29.506Z"
     }, 
     "pump": {
       "battery": {
@@ -18,80 +18,79 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-01-09T11:02:11.389Z", 
+        "timestamp": "2017-01-09T11:35:59.443Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 77.3, 
-      "clock": "2017-01-09T03:02:16-08:00"
+      "reservoir": 76.65, 
+      "clock": "2017-01-09T03:36:06-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 101, 
+        "bg": 125, 
         "temp": "absolute", 
-        "snoozeBG": 127, 
-        "timestamp": "2017-01-09T11:07:04.613Z", 
-        "rate": 1.15, 
-        "reason": "COB: 0, Dev: 1, BGI: 0.42, ISF: 94, Target: 102; Eventual BG 127 >= 102, temp 0.925<1.15U/hr", 
+        "snoozeBG": 126, 
+        "timestamp": "2017-01-09T11:40:20.946Z", 
+        "predBGs": {
+          "IOB": [
+            125, 
+            128, 
+            130, 
+            133, 
+            135, 
+            136, 
+            137, 
+            138, 
+            139, 
+            138, 
+            138, 
+            137, 
+            135, 
+            134, 
+            132, 
+            130, 
+            128, 
+            126, 
+            124, 
+            122, 
+            120, 
+            118, 
+            116, 
+            114, 
+            112, 
+            111, 
+            109, 
+            108, 
+            107, 
+            106, 
+            105, 
+            104, 
+            103, 
+            103, 
+            103, 
+            102
+          ]
+        }, 
+        "reason": "COB: 0, Dev: 13, BGI: 0.89, ISF: 94, Target: 102; Eventual BG 126 >= 102, temp 0.975<1U/hr, but 28m left and 0.975 ~ req 1U/hr: no action required", 
         "COB": 0, 
-        "eventualBG": 127, 
-        "duration": 30, 
-        "tick": "+2", 
-        "IOB": -0.279
+        "eventualBG": 126, 
+        "tick": "+3", 
+        "IOB": 0.129
       }, 
       "iob": {
-        "netbasalinsulin": -0.45, 
-        "timestamp": "2017-01-09T11:02:16.000Z", 
-        "activity": -0.0009, 
-        "basaliob": -0.279, 
-        "hightempinsulin": 0.4, 
+        "netbasalinsulin": 0.15, 
+        "timestamp": "2017-01-09T11:36:06.000Z", 
+        "activity": -0.0019, 
+        "basaliob": 0.129, 
+        "hightempinsulin": 0.75, 
         "bolussnooze": 0, 
-        "iob": -0.279
+        "iob": 0.129
       }, 
       "enacted": {
         "bg": 101, 
         "temp": "absolute", 
         "snoozeBG": 127, 
         "recieved": true, 
-        "predBGs": {
-          "IOB": [
-            101, 
-            102, 
-            102, 
-            103, 
-            104, 
-            105, 
-            106, 
-            107, 
-            108, 
-            109, 
-            110, 
-            111, 
-            112, 
-            113, 
-            114, 
-            114, 
-            115, 
-            115, 
-            116, 
-            116, 
-            116, 
-            116, 
-            116, 
-            117, 
-            117, 
-            116, 
-            116, 
-            116, 
-            116, 
-            116, 
-            115, 
-            115, 
-            115, 
-            115, 
-            114
-          ]
-        }, 
         "reason": "COB: 0, Dev: 1, BGI: 0.42, ISF: 94, Target: 102; Eventual BG 127 >= 102, temp 0.925<1.15U/hr", 
         "rate": 1.15, 
         "COB": 0, 
@@ -103,10 +102,10 @@
       }
     }, 
     "uploader": {
-      "battery": 71, 
-      "batteryVoltage": 3890
+      "battery": 70, 
+      "batteryVoltage": 3879
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "58736f2759087f1978d2ab88"
+    "_id": "587376bc59087f1978d2ab97"
   }
 ]
