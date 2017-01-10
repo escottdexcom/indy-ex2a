@@ -1,5 +1,63 @@
 [
   {
+    "programmed": 1.0, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2017-01-09T20:08:12 head[8], body[0] op[0x01]", 
+    "timestamp": "2017-01-09T20:08:12", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.6, 
+            "age": 111
+          }, 
+          {
+            "amount": 0.75, 
+            "age": 261
+          }, 
+          {
+            "amount": 1.15, 
+            "age": 461
+          }, 
+          {
+            "amount": 0.85, 
+            "age": 471
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0e186fc01e05d02ecdd022d7d0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100280028000800", 
+    "amount": 1.0, 
+    "unabsorbed": 0.2, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "0c48340911"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 180, 
+    "_description": "BolusWizard 2017-01-09T20:08:12 head[2], body[15] op[0x5b]", 
+    "timestamp": "2017-01-09T20:08:12", 
+    "_body": "1a5000a05a640000400000000040b4", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "0c48140911", 
+    "bolus_estimate": 1.6, 
+    "bg_target_low": 100, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 1.6, 
+    "carb_input": 26, 
+    "sensitivity": 90
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2017-01-09T20:04:00 head[2], body[0] op[0x16]", 
