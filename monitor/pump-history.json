@@ -1,5 +1,18 @@
 [
   {
+    "programmed": 0.9, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2017-01-11T18:28:32 head[8], body[0] op[0x01]", 
+    "timestamp": "2017-01-11T18:28:32", 
+    "_body": "", 
+    "_head": "0100240024005600", 
+    "amount": 0.9, 
+    "unabsorbed": 2.15, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "205c326b11"
+  }, 
+  {
     "programmed": 2.0, 
     "_type": "Bolus", 
     "_description": "Bolus 2017-01-11T18:17:18 head[8], body[0] op[0x01]", 
@@ -833,24 +846,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "39600c4b11"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "link": "c23647", 
-    "_description": "BGReceived 2017-01-11T12:27:15 head[2], body[3] op[0x3f]", 
-    "timestamp": "2017-01-11T12:27:15", 
-    "_body": "c23647", 
-    "_head": "3f09", 
-    "amount": 77, 
-    "_date": "0f5bac6b11"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2017-01-11T12:27:15 head[2], body[0] op[0x0a]", 
-    "timestamp": "2017-01-11T12:27:15", 
-    "_body": "", 
-    "_head": "0a4d", 
-    "amount": 77, 
-    "_date": "0f5b2c6b11"
   }
 ]
