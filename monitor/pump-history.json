@@ -1,5 +1,59 @@
 [
   {
+    "programmed": 0.2, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2017-01-11T18:00:21 head[8], body[0] op[0x01]", 
+    "timestamp": "2017-01-11T18:00:21", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.3, 
+            "age": 163
+          }, 
+          {
+            "amount": 2.0, 
+            "age": 373
+          }, 
+          {
+            "amount": 0.9, 
+            "age": 473
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0b0ca3c05075d024d9d0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100080008000200", 
+    "amount": 0.2, 
+    "unabsorbed": 0.05, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "1540320b11"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 180, 
+    "_description": "BolusWizard 2017-01-11T18:00:21 head[2], body[15] op[0x5b]", 
+    "timestamp": "2017-01-11T18:00:21", 
+    "_body": "0a5000a05a640000180000000018b4", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "1540120b11", 
+    "bolus_estimate": 0.6, 
+    "bg_target_low": 100, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 0.6, 
+    "carb_input": 10, 
+    "sensitivity": 90
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2017-01-11T17:38:28 head[2], body[0] op[0x16]", 
@@ -752,97 +806,5 @@
     "_head": "0a44", 
     "amount": 68, 
     "_date": "374d2c6b11"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2017-01-11T11:58:09 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-01-11T11:58:09", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "097a0b4b11"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-01-11T11:58:09 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-01-11T11:58:09", 
-    "_body": "00", 
-    "_head": "331a", 
-    "rate": 0.65, 
-    "_date": "097a0b4b11"
-  }, 
-  {
-    "programmed": 2.0, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2017-01-11T11:53:15 head[8], body[0] op[0x01]", 
-    "timestamp": "2017-01-11T11:53:15", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.9, 
-            "age": 106
-          }, 
-          {
-            "amount": 0.9, 
-            "age": 306
-          }, 
-          {
-            "amount": 0.1, 
-            "age": 316
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c0b246ac02432d0043cd0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100500050000c00", 
-    "amount": 2.0, 
-    "unabsorbed": 0.3, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "0f752b0b11"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 126, 
-    "bg_target_high": 180, 
-    "_description": "BolusWizard 2017-01-11T11:53:15 head[2], body[15] op[0x5b]", 
-    "timestamp": "2017-01-11T11:53:15", 
-    "_body": "285000c85a6400005000000c0050b4", 
-    "_head": "5b7e", 
-    "unabsorbed_insulin_total": 0.3, 
-    "correction_estimate": 0.0, 
-    "_date": "0f750b0b11", 
-    "bolus_estimate": 2.0, 
-    "bg_target_low": 100, 
-    "carb_ratio": 20.0, 
-    "food_estimate": 2.0, 
-    "carb_input": 40, 
-    "sensitivity": 90
-  }, 
-  {
-    "_type": "BGReceived", 
-    "link": "c23647", 
-    "_description": "BGReceived 2017-01-11T11:52:49 head[2], body[3] op[0x3f]", 
-    "timestamp": "2017-01-11T11:52:49", 
-    "_body": "c23647", 
-    "_head": "3f0f", 
-    "amount": 126, 
-    "_date": "3174cb6b11"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2017-01-11T11:52:49 head[2], body[0] op[0x0a]", 
-    "timestamp": "2017-01-11T11:52:49", 
-    "_body": "", 
-    "_head": "0a7e", 
-    "amount": 126, 
-    "_date": "31742b6b11"
   }
 ]
