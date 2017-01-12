@@ -7,117 +7,30 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-12T01:36:41.956Z", 
+      "timestamp": "2017-01-12T01:47:36.497Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 81.125, 
-    "clock": "2017-01-11T17:36:50-08:00"
+    "clock": "2017-01-11T17:47:45-08:00"
   }, 
   "uploader": {
-    "battery": 87, 
-    "batteryVoltage": 4047
+    "battery": 86, 
+    "batteryVoltage": 4044
   }, 
   "openaps": {
     "suggested": {
-      "bg": 92, 
-      "temp": "absolute", 
-      "snoozeBG": 62, 
-      "timestamp": "2017-01-12T01:40:32.260Z", 
-      "predBGs": {
-        "aCOB": [
-          92, 
-          97, 
-          101, 
-          106, 
-          110, 
-          115, 
-          119, 
-          123, 
-          128, 
-          132, 
-          137, 
-          141, 
-          146, 
-          150, 
-          154, 
-          158, 
-          161, 
-          164, 
-          166, 
-          168, 
-          170, 
-          171, 
-          172, 
-          172, 
-          173, 
-          173, 
-          174, 
-          175, 
-          175, 
-          176, 
-          176, 
-          176, 
-          177, 
-          177, 
-          177, 
-          177, 
-          177, 
-          178
-        ], 
-        "IOB": [
-          92, 
-          87, 
-          83, 
-          79, 
-          75, 
-          72, 
-          69, 
-          66, 
-          64, 
-          63, 
-          62, 
-          61, 
-          61, 
-          61, 
-          61, 
-          62, 
-          62, 
-          63, 
-          64, 
-          64, 
-          65, 
-          65, 
-          66, 
-          67, 
-          67, 
-          68, 
-          68, 
-          69, 
-          69, 
-          70, 
-          70, 
-          71, 
-          71, 
-          71, 
-          71, 
-          72
-        ]
-      }, 
-      "reason": "COB: 13, Dev: -12, BGI: -2.86, ISF: 82, Target: 96; Eventual BG 62 < 96, setting -1.025U/hr, but 30m left and 0 ~ req 0U/hr: no action required", 
-      "COB": 13, 
-      "eventualBG": 62, 
-      "tick": -5, 
-      "IOB": 0.221
+      "timestamp": "2017-01-12T01:50:28.697Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Wed Jan 11 2017 17:38:25 GMT-0800 (PST) but your system time is Wed Jan 11 2017 17:50:28 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": 0.65, 
-      "timestamp": "2017-01-12T01:36:50.000Z", 
-      "activity": 0.007, 
-      "basaliob": 0.195, 
+      "netbasalinsulin": 0.6, 
+      "timestamp": "2017-01-12T01:47:45.000Z", 
+      "activity": 0.0062, 
+      "basaliob": 0.037, 
       "hightempinsulin": 1.15, 
       "bolussnooze": 0, 
-      "iob": 0.221
+      "iob": 0.052
     }, 
     "enacted": {
       "bg": 115, 
@@ -139,9 +52,9 @@
       [
         null, 
         0, 
-        -55.6
+        -54.2
       ]
     ], 
-    "timestamp": "2017-01-12T01:40:40.217Z"
+    "timestamp": "2017-01-12T01:50:36.765Z"
   }
 }
