@@ -1,0 +1,94 @@
+[
+  {
+    "created_at": "2017-01-13T19:42:20.619Z", 
+    "mmtune": {
+      "scanDetails": [
+        [
+          null, 
+          0, 
+          -68.2
+        ]
+      ], 
+      "timestamp": "2017-01-13T19:42:00.858Z"
+    }, 
+    "pump": {
+      "battery": {
+        "status": "normal", 
+        "voltage": 1.56
+      }, 
+      "status": {
+        "status": "normal", 
+        "timestamp": "2017-01-13T19:36:32.894Z", 
+        "bolusing": false, 
+        "suspended": false
+      }, 
+      "reservoir": 99.725, 
+      "clock": "2017-01-13T11:36:36-08:00"
+    }, 
+    "openaps": {
+      "suggested": {
+        "bg": 140, 
+        "temp": "absolute", 
+        "snoozeBG": 51, 
+        "timestamp": "2017-01-13T19:40:38.607Z", 
+        "rate": 0, 
+        "reason": "COB: 0, Dev: -16, BGI: -6.79, ISF: 96, Target: 80; Eventual BG 29 < 80, setting -0.65U/hr", 
+        "COB": 0, 
+        "eventualBG": 29, 
+        "duration": 30, 
+        "tick": -10, 
+        "IOB": 0.994
+      }, 
+      "iob": {
+        "netbasalinsulin": 0.7, 
+        "timestamp": "2017-01-13T19:36:36.000Z", 
+        "activity": 0.0142, 
+        "basaliob": 0.602, 
+        "hightempinsulin": 0.95, 
+        "bolussnooze": 0.15, 
+        "iob": 0.994
+      }, 
+      "enacted": {
+        "bg": 140, 
+        "temp": "absolute", 
+        "snoozeBG": 51, 
+        "recieved": true, 
+        "predBGs": {
+          "IOB": [
+            140, 
+            130, 
+            121, 
+            111, 
+            102, 
+            93, 
+            85, 
+            77, 
+            70, 
+            64, 
+            58, 
+            54, 
+            50, 
+            47, 
+            44, 
+            41, 
+            39
+          ]
+        }, 
+        "reason": "COB: 0, Dev: -16, BGI: -6.79, ISF: 96, Target: 80; Eventual BG 29 < 80, setting -0.65U/hr", 
+        "rate": 0, 
+        "COB": 0, 
+        "eventualBG": 29, 
+        "timestamp": "2017-01-13T19:41:52.978Z", 
+        "duration": 30, 
+        "tick": -10, 
+        "IOB": 0.994
+      }
+    }, 
+    "uploader": {
+      "battery": 83, 
+      "batteryVoltage": 4013
+    }, 
+    "device": "openaps://indy-ex2", 
+    "_id": "58792d9cca8bacdf681617c8"
+  }
+]
