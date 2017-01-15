@@ -7,117 +7,36 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-15T00:37:33.326Z", 
+      "timestamp": "2017-01-15T00:52:24.674Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 64.6, 
-    "clock": "2017-01-14T16:37:42-08:00"
+    "clock": "2017-01-14T16:52:33-08:00"
   }, 
   "uploader": {
-    "battery": 54, 
-    "batteryVoltage": 3720
+    "battery": 55, 
+    "batteryVoltage": 3731
   }, 
   "openaps": {
     "suggested": {
-      "bg": 74, 
-      "temp": "absolute", 
-      "snoozeBG": 96, 
-      "timestamp": "2017-01-15T00:41:22.698Z", 
-      "reason": "COB: 13, Dev: -3, BGI: 0.1, ISF: 99, Target: 104; BG 74<77", 
-      "rate": 0, 
-      "COB": 13, 
-      "eventualBG": 51, 
-      "duration": 30, 
-      "tick": "+2", 
-      "IOB": 0.2
+      "timestamp": "2017-01-15T00:55:13.726Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Jan 14 2017 16:43:17 GMT-0800 (PST) but your system time is Sat Jan 14 2017 16:55:13 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": -0.5, 
-      "timestamp": "2017-01-15T00:37:42.000Z", 
-      "activity": -0.0002, 
-      "basaliob": -0.354, 
+      "netbasalinsulin": -0.6, 
+      "timestamp": "2017-01-15T00:52:33.000Z", 
+      "activity": 0.0013, 
+      "basaliob": -0.392, 
       "hightempinsulin": 0.35, 
-      "bolussnooze": 0.3, 
-      "iob": 0.2
+      "bolussnooze": 0.139, 
+      "iob": 0.089
     }, 
     "enacted": {
       "bg": 74, 
       "temp": "absolute", 
       "snoozeBG": 96, 
       "recieved": true, 
-      "predBGs": {
-        "aCOB": [
-          74, 
-          83, 
-          92, 
-          100, 
-          108, 
-          115, 
-          121, 
-          127, 
-          132, 
-          137, 
-          142, 
-          147, 
-          152, 
-          156, 
-          160, 
-          164, 
-          168, 
-          171, 
-          174, 
-          177, 
-          179, 
-          181, 
-          183, 
-          184, 
-          185, 
-          186, 
-          187, 
-          187, 
-          188, 
-          188, 
-          189, 
-          189, 
-          190
-        ], 
-        "IOB": [
-          74, 
-          74, 
-          73, 
-          72, 
-          71, 
-          70, 
-          69, 
-          67, 
-          65, 
-          64, 
-          63, 
-          62, 
-          61, 
-          60, 
-          59, 
-          59, 
-          58, 
-          58, 
-          58, 
-          57, 
-          57, 
-          57, 
-          57, 
-          57, 
-          57, 
-          57, 
-          58, 
-          58, 
-          59, 
-          59, 
-          60, 
-          60, 
-          61
-        ]
-      }, 
       "rate": 0, 
       "reason": "COB: 13, Dev: -3, BGI: 0.1, ISF: 99, Target: 104; BG 74<77", 
       "COB": 13, 
@@ -133,9 +52,9 @@
       [
         null, 
         0, 
-        -64.4
+        -65.4
       ]
     ], 
-    "timestamp": "2017-01-15T00:43:43.499Z"
+    "timestamp": "2017-01-15T00:55:21.686Z"
   }
 }
