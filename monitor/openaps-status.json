@@ -3,97 +3,100 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.43
+      "voltage": 1.42
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-16T00:54:11.089Z", 
+      "timestamp": "2017-01-16T01:06:44.650Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 132.325, 
-    "clock": "2017-01-15T16:54:20-08:00"
+    "clock": "2017-01-15T17:06:54-08:00"
   }, 
   "uploader": {
-    "battery": 67, 
-    "batteryVoltage": 3855
+    "battery": 66, 
+    "batteryVoltage": 3840
   }, 
   "openaps": {
     "suggested": {
-      "bg": 95, 
+      "bg": 74, 
       "temp": "absolute", 
-      "snoozeBG": 24, 
-      "timestamp": "2017-01-16T00:57:03.661Z", 
-      "reason": "COB: 13, Dev: -5, BGI: -9.54, ISF: 90, Target: 80; Eventual BG 24 < 80, setting -1.9U/hr", 
+      "snoozeBG": 25, 
+      "timestamp": "2017-01-16T01:09:41.342Z", 
+      "reason": "COB: 22, Dev: -13, BGI: -8.1, ISF: 90, Target: 80; Eventual BG 25 < 80, setting -1.85U/hr", 
       "rate": 0, 
-      "COB": 13, 
-      "eventualBG": 24, 
+      "COB": 22, 
+      "eventualBG": 25, 
       "duration": 30, 
-      "tick": -10, 
-      "IOB": 0.737
+      "tick": -9, 
+      "IOB": 0.398
     }, 
     "iob": {
-      "netbasalinsulin": 1.95, 
-      "timestamp": "2017-01-16T00:54:20.000Z", 
-      "activity": 0.0212, 
-      "basaliob": 0.46, 
+      "netbasalinsulin": 1.85, 
+      "timestamp": "2017-01-16T01:06:54.000Z", 
+      "activity": 0.018, 
+      "basaliob": 0.19, 
       "hightempinsulin": 2.35, 
-      "bolussnooze": 0.003, 
-      "iob": 0.737
+      "bolussnooze": 0, 
+      "iob": 0.398
     }, 
     "enacted": {
-      "bg": 95, 
+      "bg": 74, 
       "temp": "absolute", 
-      "snoozeBG": 24, 
+      "snoozeBG": 25, 
       "recieved": true, 
       "predBGs": {
         "aCOB": [
-          95, 
-          94, 
-          94, 
-          93, 
-          93, 
-          94, 
-          95, 
+          74, 
+          74, 
+          74, 
+          75, 
+          77, 
+          79, 
+          82, 
+          86, 
+          91, 
           96, 
-          98, 
-          100, 
           102, 
-          105, 
           108, 
-          111, 
-          114, 
-          117, 
+          115, 
           121, 
-          124, 
-          127, 
-          130, 
-          132, 
-          134, 
+          128, 
           136, 
-          138, 
-          139, 
-          140, 
-          141, 
-          141, 
-          142, 
           143, 
-          143, 
-          143, 
-          144, 
-          144, 
-          144, 
-          144, 
-          145
+          150, 
+          157, 
+          165, 
+          171, 
+          178, 
+          184, 
+          190, 
+          196, 
+          201, 
+          205, 
+          210, 
+          214, 
+          218, 
+          221, 
+          224, 
+          227, 
+          229, 
+          231, 
+          233, 
+          234, 
+          235, 
+          236, 
+          237
         ], 
         "IOB": [
-          95, 
-          85, 
-          75, 
-          66, 
-          57, 
-          50, 
-          43, 
+          74, 
+          64, 
+          55, 
+          46, 
+          39, 
+          39, 
+          39, 
           39, 
           39, 
           39, 
@@ -103,13 +106,13 @@
         ]
       }, 
       "rate": 0, 
-      "reason": "COB: 13, Dev: -5, BGI: -9.54, ISF: 90, Target: 80; Eventual BG 24 < 80, setting -1.9U/hr", 
-      "COB": 13, 
-      "eventualBG": 24, 
-      "timestamp": "2017-01-16T00:57:32.802Z", 
+      "reason": "COB: 22, Dev: -13, BGI: -8.1, ISF: 90, Target: 80; Eventual BG 25 < 80, setting -1.85U/hr", 
+      "COB": 22, 
+      "eventualBG": 25, 
+      "timestamp": "2017-01-16T01:10:20.512Z", 
       "duration": 30, 
-      "tick": -10, 
-      "IOB": 0.737
+      "tick": -9, 
+      "IOB": 0.398
     }
   }, 
   "mmtune": {
@@ -117,9 +120,9 @@
       [
         null, 
         0, 
-        -55
+        -67
       ]
     ], 
-    "timestamp": "2017-01-16T00:57:40.652Z"
+    "timestamp": "2017-01-16T01:10:28.453Z"
   }
 }
