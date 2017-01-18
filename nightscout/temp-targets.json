@@ -1,0 +1,50 @@
+[
+  {
+    "carbs": null, 
+    "eventType": "Temporary Target", 
+    "created_at": "2017-01-18T04:48:26.777Z", 
+    "targetBottom": 80, 
+    "enteredBy": "Maker", 
+    "targetTop": 80, 
+    "reason": "Eating Soon", 
+    "insulin": null, 
+    "duration": 90, 
+    "_id": "587ef39a65110bbfc1953ee3"
+  }, 
+  {
+    "carbs": null, 
+    "eventType": "Temporary Target", 
+    "created_at": "2017-01-17T14:44:45.917Z", 
+    "targetBottom": 80, 
+    "enteredBy": "Maker", 
+    "targetTop": 80, 
+    "reason": "Eating Soon", 
+    "insulin": null, 
+    "duration": 90, 
+    "_id": "587e2ddd65110bbfc1953da4"
+  }, 
+  {
+    "carbs": null, 
+    "eventType": "Temporary Target", 
+    "created_at": "2017-01-17T06:40:32.628Z", 
+    "targetBottom": 80, 
+    "enteredBy": "Maker", 
+    "targetTop": 80, 
+    "reason": "Eating Soon", 
+    "insulin": null, 
+    "duration": 90, 
+    "_id": "587dbc6065110bbfc1953d0a"
+  }, 
+  {
+    "carbs": null, 
+    "eventType": "Temporary Target", 
+    "created_at": "2017-01-17T02:47:07.019Z", 
+    "targetBottom": 80, 
+    "enteredBy": "Maker", 
+    "targetTop": 80, 
+    "reason": "Eating Soon", 
+    "insulin": null, 
+    "duration": 90, 
+    "_id": "587d85ab65110bbfc1953c9c"
+  }
+]
