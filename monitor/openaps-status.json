@@ -7,89 +7,36 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-18T09:03:31.998Z", 
+      "timestamp": "2017-01-18T09:27:12.682Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 69.375, 
-    "clock": "2017-01-18T01:03:42-08:00"
+    "reservoir": 68.725, 
+    "clock": "2017-01-18T01:27:22-08:00"
   }, 
   "uploader": {
-    "battery": 70, 
-    "batteryVoltage": 3881
+    "battery": 71, 
+    "batteryVoltage": 3886
   }, 
   "openaps": {
     "suggested": {
-      "bg": 188, 
-      "temp": "absolute", 
-      "snoozeBG": 124, 
-      "timestamp": "2017-01-18T09:06:54.420Z", 
-      "reason": "COB: 0, Dev: 21, BGI: -3.48, ISF: 82, Target: 96; Eventual BG 124 >= 96, 27m@1.475 = 0.664 > req 0.34+20%. Setting temp basal of 1.65U/hr", 
-      "rate": 1.65, 
-      "COB": 0, 
-      "eventualBG": 124, 
-      "duration": 30, 
-      "tick": "+0", 
-      "IOB": 1.041
+      "timestamp": "2017-01-18T09:31:47.554Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Wed Jan 18 2017 01:19:10 GMT-0800 (PST) but your system time is Wed Jan 18 2017 01:31:47 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": 1.35, 
-      "timestamp": "2017-01-18T09:03:42.000Z", 
-      "activity": 0.0085, 
-      "basaliob": 1.041, 
-      "hightempinsulin": 1.7, 
+      "netbasalinsulin": 1.75, 
+      "timestamp": "2017-01-18T09:27:22.000Z", 
+      "activity": 0.011, 
+      "basaliob": 1.203, 
+      "hightempinsulin": 1.95, 
       "bolussnooze": 0, 
-      "iob": 1.041
+      "iob": 1.203
     }, 
     "enacted": {
       "bg": 188, 
       "temp": "absolute", 
       "snoozeBG": 124, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          188, 
-          188, 
-          187, 
-          186, 
-          184, 
-          181, 
-          178, 
-          175, 
-          171, 
-          166, 
-          161, 
-          155, 
-          149, 
-          142, 
-          136, 
-          130, 
-          124, 
-          118, 
-          112, 
-          106, 
-          100, 
-          95, 
-          91, 
-          86, 
-          82, 
-          79, 
-          75, 
-          72, 
-          70, 
-          67, 
-          65, 
-          64, 
-          62, 
-          61, 
-          60, 
-          59, 
-          58, 
-          58, 
-          58, 
-          57
-        ]
-      }, 
       "rate": 1.65, 
       "reason": "COB: 0, Dev: 21, BGI: -3.48, ISF: 82, Target: 96; Eventual BG 124 >= 96, 27m@1.475 = 0.664 > req 0.34+20%. Setting temp basal of 1.65U/hr", 
       "COB": 0, 
@@ -105,9 +52,9 @@
       [
         null, 
         0, 
-        -87.4
+        -88
       ]
     ], 
-    "timestamp": "2017-01-18T09:08:19.301Z"
+    "timestamp": "2017-01-18T09:31:55.454Z"
   }
 }
