@@ -322,15 +322,5 @@
     "insulin": null, 
     "duration": 0, 
     "_id": "5880001a65110bbfc19540fc"
-  }, 
-  {
-    "carbs": 10, 
-    "eventType": "Carb Correction", 
-    "created_at": "2017-01-18T22:03:27.502Z", 
-    "enteredBy": "Mom", 
-    "reason": "", 
-    "insulin": null, 
-    "duration": 0, 
-    "_id": "587fe62f65110bbfc19540c8"
   }
 ]
