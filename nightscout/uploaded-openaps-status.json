@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-01-21T13:21:18.224Z", 
+    "created_at": "2017-01-21T13:31:43.878Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -82
+          -83.6
         ]
       ], 
-      "timestamp": "2017-01-21T13:21:04.219Z"
+      "timestamp": "2017-01-21T13:31:29.805Z"
     }, 
     "pump": {
       "battery": {
@@ -18,85 +18,73 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-01-21T13:16:23.806Z", 
+        "timestamp": "2017-01-21T13:27:40.882Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 73.275, 
-      "clock": "2017-01-21T05:16:35-08:00"
+      "reservoir": 73.125, 
+      "clock": "2017-01-21T05:27:47-08:00"
     }, 
     "openaps": {
       "suggested": {
         "bg": 131, 
         "temp": "absolute", 
-        "snoozeBG": 105, 
-        "timestamp": "2017-01-21T13:19:54.718Z", 
-        "rate": 0.75, 
-        "reason": "COB: 0, Dev: 0, BGI: -0.04, ISF: 84, Target: 97; Eventual BG 105 >= 97, 24m@0.800 = 0.320 > req 0.1+20%. Setting temp basal of 0.75U/hr", 
+        "snoozeBG": 100, 
+        "timestamp": "2017-01-21T13:31:21.874Z", 
+        "predBGs": {
+          "IOB": [
+            131, 
+            130, 
+            129, 
+            128, 
+            127, 
+            125, 
+            124, 
+            123, 
+            121, 
+            119, 
+            118, 
+            116, 
+            115, 
+            113, 
+            112, 
+            110, 
+            109, 
+            107, 
+            106, 
+            105, 
+            103, 
+            102, 
+            101, 
+            100, 
+            100, 
+            99, 
+            99, 
+            98, 
+            98, 
+            97
+          ]
+        }, 
+        "reason": "COB: 0, Dev: -1, BGI: -0.25, ISF: 84, Target: 97; Eventual BG 100 > 97 but Min. Delta -1.00 < Exp. Delta -0.4; setting current basal of 0.55 as temp, but 30m left and 0.675 ~ req 0.55U/hr: no action required", 
         "COB": 0, 
-        "eventualBG": 105, 
-        "duration": 30, 
-        "tick": "+0", 
-        "IOB": 0.311
+        "eventualBG": 100, 
+        "tick": -1, 
+        "IOB": 0.357
       }, 
       "iob": {
-        "netbasalinsulin": 0.65, 
-        "timestamp": "2017-01-21T13:16:35.000Z", 
-        "activity": 0.0001, 
-        "basaliob": 0.311, 
-        "hightempinsulin": 0.85, 
+        "netbasalinsulin": 0.55, 
+        "timestamp": "2017-01-21T13:27:47.000Z", 
+        "activity": 0.0006, 
+        "basaliob": 0.357, 
+        "hightempinsulin": 0.75, 
         "bolussnooze": 0, 
-        "iob": 0.311
+        "iob": 0.357
       }, 
       "enacted": {
         "bg": 131, 
         "temp": "absolute", 
         "snoozeBG": 105, 
         "recieved": true, 
-        "predBGs": {
-          "IOB": [
-            131, 
-            131, 
-            131, 
-            131, 
-            130, 
-            130, 
-            129, 
-            128, 
-            126, 
-            125, 
-            123, 
-            121, 
-            119, 
-            117, 
-            114, 
-            112, 
-            109, 
-            107, 
-            104, 
-            102, 
-            99, 
-            97, 
-            95, 
-            93, 
-            91, 
-            89, 
-            88, 
-            86, 
-            85, 
-            84, 
-            83, 
-            82, 
-            81, 
-            81, 
-            80, 
-            80, 
-            80, 
-            80, 
-            80, 
-            79
-          ]
-        }, 
         "reason": "COB: 0, Dev: 0, BGI: -0.04, ISF: 84, Target: 97; Eventual BG 105 >= 97, 24m@0.800 = 0.320 > req 0.1+20%. Setting temp basal of 0.75U/hr", 
         "rate": 0.75, 
         "COB": 0, 
@@ -108,10 +96,10 @@
       }
     }, 
     "uploader": {
-      "battery": 71, 
-      "batteryVoltage": 3891
+      "battery": 70, 
+      "batteryVoltage": 3877
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "5883604ec445a47e6cce1a23"
+    "_id": "588362bfc445a47e6cce1a29"
   }
 ]
