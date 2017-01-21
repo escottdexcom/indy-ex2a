@@ -1,5 +1,18 @@
 [
   {
+    "programmed": 1.35, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2017-01-21T14:26:42 head[8], body[0] op[0x01]", 
+    "timestamp": "2017-01-21T14:26:42-08:00", 
+    "_body": "", 
+    "_head": "0100360036004000", 
+    "amount": 1.35, 
+    "unabsorbed": 1.6, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "2a5a2e1511"
+  }, 
+  {
     "_type": "PumpResume", 
     "_description": "PumpResume 2017-01-21T14:26:10 head[2], body[0] op[0x1f]", 
     "timestamp": "2017-01-21T14:26:10-08:00", 
