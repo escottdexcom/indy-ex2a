@@ -1,43 +1,43 @@
 [
   {
-    "created_at": "2017-01-21T18:49:23.530Z", 
+    "created_at": "2017-01-21T19:03:33.212Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -55
+          -53.4
         ]
       ], 
-      "timestamp": "2017-01-21T18:49:09.499Z"
+      "timestamp": "2017-01-21T19:03:17.987Z"
     }, 
     "pump": {
       "battery": {
         "status": "normal", 
-        "voltage": 1.44
+        "voltage": 1.45
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-01-21T18:46:07.537Z", 
+        "timestamp": "2017-01-21T18:54:54.152Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 59.825, 
-      "clock": "2017-01-21T10:46:18-08:00"
+      "reservoir": 59.7, 
+      "clock": "2017-01-21T10:55:03-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "timestamp": "2017-01-21T18:49:01.229Z", 
-        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Jan 21 2017 10:38:55 GMT-0800 (PST) but your system time is Sat Jan 21 2017 10:49:01 GMT-0800 (PST)"
+        "timestamp": "2017-01-21T19:03:09.897Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Jan 21 2017 10:48:55 GMT-0800 (PST) but your system time is Sat Jan 21 2017 11:03:09 GMT-0800 (PST)"
       }, 
       "iob": {
         "netbasalinsulin": 0.45, 
-        "timestamp": "2017-01-21T18:46:18.000Z", 
-        "activity": 0.0109, 
-        "basaliob": 0.411, 
+        "timestamp": "2017-01-21T18:55:03.000Z", 
+        "activity": 0.0099, 
+        "basaliob": 0.391, 
         "hightempinsulin": 1, 
         "bolussnooze": 0, 
-        "iob": 0.652
+        "iob": 0.564
       }, 
       "enacted": {
         "bg": 147, 
@@ -56,9 +56,9 @@
     }, 
     "uploader": {
       "battery": 80, 
-      "batteryVoltage": 3985
+      "batteryVoltage": 3976
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "5883ad33c445a47e6cce1a83"
+    "_id": "5883b085c445a47e6cce1a84"
   }
 ]
