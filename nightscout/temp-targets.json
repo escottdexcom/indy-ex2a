@@ -2,6 +2,18 @@
   {
     "carbs": null, 
     "eventType": "Temporary Target", 
+    "created_at": "2017-01-22T06:57:11.398Z", 
+    "targetBottom": 80, 
+    "enteredBy": "Maker", 
+    "targetTop": 80, 
+    "reason": "Eating Soon", 
+    "insulin": null, 
+    "duration": 90, 
+    "_id": "588457c765110bbfc19549b3"
+  }, 
+  {
+    "carbs": null, 
+    "eventType": "Temporary Target", 
     "created_at": "2017-01-22T00:53:13.208Z", 
     "targetBottom": 80, 
     "enteredBy": "Maker", 
@@ -94,17 +106,5 @@
     "insulin": null, 
     "duration": 90, 
     "_id": "5882ca0e65110bbfc195465d"
-  }, 
-  {
-    "carbs": null, 
-    "eventType": "Temporary Target", 
-    "created_at": "2017-01-20T22:56:27.041Z", 
-    "targetBottom": 80, 
-    "enteredBy": "Dad", 
-    "targetTop": 80, 
-    "reason": "Eating Soon", 
-    "insulin": null, 
-    "duration": 60, 
-    "_id": "5882959b65110bbfc19545ec"
   }
 ]
