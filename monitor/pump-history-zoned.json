@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-01-21T20:40:56 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-01-21T20:40:56-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "3868145511"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-01-21T20:40:56 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-01-21T20:40:56-08:00", 
+    "_body": "00", 
+    "_head": "3325", 
+    "rate": 0.925, 
+    "_date": "3868145511"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2017-01-21T20:18:03 head[2], body[0] op[0x16]", 
     "timestamp": "2017-01-21T20:18:03-08:00", 
     "_body": "", 
@@ -709,122 +728,5 @@
     "_head": "3319", 
     "rate": 0.625, 
     "_date": "2b6b0e5511"
-  }, 
-  {
-    "programmed": 1.35, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2017-01-21T14:26:42 head[8], body[0] op[0x01]", 
-    "timestamp": "2017-01-21T14:26:42-08:00", 
-    "_body": "", 
-    "_head": "0100360036004000", 
-    "amount": 1.35, 
-    "unabsorbed": 1.6, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "2a5a2e1511"
-  }, 
-  {
-    "_type": "PumpResume", 
-    "_description": "PumpResume 2017-01-21T14:26:10 head[2], body[0] op[0x1f]", 
-    "timestamp": "2017-01-21T14:26:10-08:00", 
-    "_body": "", 
-    "_head": "1f20", 
-    "_date": "0a5a0e1511"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2017-01-21T14:25:40 head[8], body[0] op[0x01]", 
-    "timestamp": "2017-01-21T14:25:40-08:00", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
-        "_body": "", 
-        "_head": "5c0e2c12c00c6cc004b2c0385cd0", 
-        "data": [
-          {
-            "amount": 1.1, 
-            "age": 18
-          }, 
-          {
-            "amount": 0.3, 
-            "age": 108
-          }, 
-          {
-            "amount": 0.1, 
-            "age": 178
-          }, 
-          {
-            "amount": 1.4, 
-            "age": 348
-          }
-        ], 
-        "_date": ""
-      }
-    ], 
-    "programmed": 3.3, 
-    "duration": 0, 
-    "amount": 0.45, 
-    "unabsorbed": 1.2, 
-    "_head": "0100840012003000", 
-    "type": "normal", 
-    "_date": "28592e1511"
-  }, 
-  {
-    "_type": "PumpSuspend", 
-    "_description": "PumpSuspend 2017-01-21T14:25:56 head[2], body[0] op[0x1e]", 
-    "timestamp": "2017-01-21T14:25:56-08:00", 
-    "_body": "", 
-    "_head": "1e01", 
-    "_date": "38590e1511"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "_description": "BolusWizard 2017-01-21T14:25:40 head[2], body[15] op[0x5b]", 
-    "timestamp": "2017-01-21T14:25:40-08:00", 
-    "_body": "3c5000b45a640000840000000084b4", 
-    "carb_input": 60, 
-    "bg_target_high": 180, 
-    "sensitivity": 90, 
-    "carb_ratio": 18.0, 
-    "food_estimate": 3.3, 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.0, 
-    "bg_target_low": 100, 
-    "_head": "5b00", 
-    "bolus_estimate": 3.3, 
-    "_date": "28590e1511"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-01-21T14:24:00 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-01-21T14:24:00-08:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "00580e5511"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-01-21T14:24:00 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-01-21T14:24:00-08:00", 
-    "_body": "00", 
-    "_head": "3319", 
-    "rate": 0.625, 
-    "_date": "00580e5511"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "_description": "BasalProfileStart 2017-01-21T14:21:30 head[2], body[3] op[0x7b]", 
-    "timestamp": "2017-01-21T14:21:30-08:00", 
-    "_body": "1c1800", 
-    "profile_index": 6, 
-    "_head": "7b06", 
-    "rate": 0.6, 
-    "offset": 50400000, 
-    "_date": "1e550e1511"
   }
 ]
