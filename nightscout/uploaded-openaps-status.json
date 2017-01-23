@@ -1,0 +1,64 @@
+[
+  {
+    "created_at": "2017-01-23T01:20:27.456Z", 
+    "mmtune": {
+      "scanDetails": [
+        [
+          null, 
+          0, 
+          -56.2
+        ]
+      ], 
+      "timestamp": "2017-01-23T01:20:06.126Z"
+    }, 
+    "pump": {
+      "battery": {
+        "status": "normal", 
+        "voltage": 1.41
+      }, 
+      "status": {
+        "status": "normal", 
+        "timestamp": "2017-01-23T01:16:25.442Z", 
+        "bolusing": false, 
+        "suspended": false
+      }, 
+      "reservoir": 13.775, 
+      "clock": "2017-01-22T17:16:38-08:00"
+    }, 
+    "openaps": {
+      "suggested": {
+        "timestamp": "2017-01-23T01:19:54.916Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Jan 22 2017 17:08:25 GMT-0800 (PST) but your system time is Sun Jan 22 2017 17:19:54 GMT-0800 (PST)"
+      }, 
+      "iob": {
+        "netbasalinsulin": 1.65, 
+        "timestamp": "2017-01-23T01:16:38.000Z", 
+        "activity": 0.0283, 
+        "basaliob": 0.253, 
+        "hightempinsulin": 1.8, 
+        "bolussnooze": 0.598, 
+        "iob": 1.828
+      }, 
+      "enacted": {
+        "bg": 130, 
+        "temp": "absolute", 
+        "snoozeBG": 155, 
+        "recieved": true, 
+        "reason": "COB: 43, Dev: 88, BGI: -12.27, ISF: 82, Target: 80; Eventual BG 304 >= 80, temp 0.9<2.5U/hr", 
+        "rate": 2.5, 
+        "COB": 43, 
+        "eventualBG": 304, 
+        "timestamp": "2017-01-23T01:11:07.017Z", 
+        "duration": 30, 
+        "tick": "+8", 
+        "IOB": 1.905
+      }
+    }, 
+    "uploader": {
+      "battery": 55, 
+      "batteryVoltage": 3731
+    }, 
+    "device": "openaps://indy-ex2", 
+    "_id": "58855a5b7cd6c90b1bb0c4f4"
+  }
+]
