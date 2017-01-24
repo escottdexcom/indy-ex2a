@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-01-24T02:26:59.758Z", 
+    "created_at": "2017-01-24T02:34:41.179Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -53
+          -52
         ]
       ], 
-      "timestamp": "2017-01-24T02:26:45.877Z"
+      "timestamp": "2017-01-24T02:34:27.451Z"
     }, 
     "pump": {
       "battery": {
@@ -18,80 +18,33 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-01-24T02:22:41.345Z", 
+        "timestamp": "2017-01-24T02:30:39.449Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 109.925, 
-      "clock": "2017-01-23T18:22:54-08:00"
+      "reservoir": 109.675, 
+      "clock": "2017-01-23T18:28:46-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 146, 
-        "temp": "absolute", 
-        "snoozeBG": 131, 
-        "timestamp": "2017-01-24T02:26:38.007Z", 
-        "predBGs": {
-          "IOB": [
-            146, 
-            150, 
-            154, 
-            157, 
-            159, 
-            161, 
-            161, 
-            161, 
-            161, 
-            159, 
-            157, 
-            154, 
-            151, 
-            147, 
-            143, 
-            139, 
-            135, 
-            131, 
-            127, 
-            123, 
-            119, 
-            116, 
-            113, 
-            110, 
-            107, 
-            105, 
-            103, 
-            101, 
-            99, 
-            98, 
-            96, 
-            95, 
-            94, 
-            93, 
-            93, 
-            92
-          ]
-        }, 
-        "reason": "COB: 0, Dev: 30, BGI: -0.29, ISF: 82, Target: 96; Eventual BG 131 >= 96, temp 2.125 >~ req 1.65U/hr", 
-        "COB": 0, 
-        "eventualBG": 131, 
-        "tick": "+8", 
-        "IOB": 0.552
+        "timestamp": "2017-01-24T02:34:19.601Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Mon Jan 23 2017 18:23:55 GMT-0800 (PST) but your system time is Mon Jan 23 2017 18:34:19 GMT-0800 (PST)"
       }, 
       "iob": {
-        "netbasalinsulin": 0.55, 
-        "timestamp": "2017-01-24T02:22:54.000Z", 
-        "activity": 0.0007, 
-        "basaliob": 0.552, 
-        "hightempinsulin": 1.05, 
+        "netbasalinsulin": 0.75, 
+        "timestamp": "2017-01-24T02:28:46.000Z", 
+        "activity": 0.0015, 
+        "basaliob": 0.694, 
+        "hightempinsulin": 1.2, 
         "bolussnooze": 0, 
-        "iob": 0.552
+        "iob": 0.694
       }
     }, 
     "uploader": {
-      "battery": 95, 
-      "batteryVoltage": 4132
+      "battery": 94, 
+      "batteryVoltage": 4124
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "5886bb737cd6c90b1bb0c685"
+    "_id": "5886bd417cd6c90b1bb0c687"
   }
 ]
