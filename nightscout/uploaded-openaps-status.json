@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-01-25T08:22:08.895Z", 
+    "created_at": "2017-01-25T08:31:29.161Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -75.8
+          -74.8
         ]
       ], 
-      "timestamp": "2017-01-25T08:21:53.918Z"
+      "timestamp": "2017-01-25T08:31:06.295Z"
     }, 
     "pump": {
       "battery": {
@@ -18,80 +18,81 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-01-25T08:17:32.955Z", 
+        "timestamp": "2017-01-25T08:27:04.771Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 58.225, 
-      "clock": "2017-01-25T00:15:38-08:00"
+      "reservoir": 57.975, 
+      "clock": "2017-01-25T00:27:17-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 164, 
+        "bg": 170, 
         "temp": "absolute", 
-        "snoozeBG": 143, 
-        "timestamp": "2017-01-25T08:20:18.417Z", 
-        "rate": 1.9, 
-        "reason": "COB: 0, Dev: 29, BGI: -2.57, ISF: 92, Target: 101; Eventual BG 143 >= 101, temp 1.55<1.9U/hr", 
+        "snoozeBG": 145, 
+        "timestamp": "2017-01-25T08:30:58.085Z", 
+        "predBGs": {
+          "IOB": [
+            170, 
+            172, 
+            173, 
+            173, 
+            173, 
+            173, 
+            172, 
+            171, 
+            169, 
+            167, 
+            164, 
+            161, 
+            158, 
+            155, 
+            152, 
+            148, 
+            145, 
+            142, 
+            140, 
+            137, 
+            134, 
+            132, 
+            130, 
+            128, 
+            126, 
+            124, 
+            123, 
+            122, 
+            121, 
+            120, 
+            119, 
+            118, 
+            118, 
+            117, 
+            117, 
+            117, 
+            117, 
+            116
+          ]
+        }, 
+        "reason": "COB: 0, Dev: 28, BGI: -2.62, ISF: 92, Target: 101; Eventual BG 145 >= 101, temp 1.625<1.95U/hr, but 23m left and 1.625 ~ req 1.95U/hr: no action required", 
         "COB": 0, 
-        "eventualBG": 143, 
-        "duration": 30, 
-        "tick": "+3", 
-        "IOB": 0.546
+        "eventualBG": 145, 
+        "tick": "+2", 
+        "IOB": 0.58
       }, 
       "iob": {
-        "netbasalinsulin": 1.05, 
-        "timestamp": "2017-01-25T08:15:38.000Z", 
-        "activity": 0.0056, 
-        "basaliob": 0.546, 
-        "hightempinsulin": 1.2, 
+        "netbasalinsulin": 1.1, 
+        "timestamp": "2017-01-25T08:27:17.000Z", 
+        "activity": 0.0057, 
+        "basaliob": 0.58, 
+        "hightempinsulin": 1.25, 
         "bolussnooze": 0, 
-        "iob": 0.546
+        "iob": 0.58
       }, 
       "enacted": {
         "bg": 164, 
         "temp": "absolute", 
         "snoozeBG": 143, 
         "recieved": true, 
-        "predBGs": {
-          "IOB": [
-            164, 
-            166, 
-            167, 
-            168, 
-            169, 
-            169, 
-            169, 
-            168, 
-            166, 
-            164, 
-            162, 
-            159, 
-            156, 
-            153, 
-            150, 
-            147, 
-            145, 
-            142, 
-            139, 
-            137, 
-            135, 
-            133, 
-            131, 
-            129, 
-            128, 
-            126, 
-            125, 
-            124, 
-            123, 
-            122, 
-            122, 
-            121, 
-            121, 
-            121, 
-            120
-          ]
-        }, 
         "reason": "COB: 0, Dev: 29, BGI: -2.57, ISF: 92, Target: 101; Eventual BG 143 >= 101, temp 1.55<1.9U/hr", 
         "rate": 1.9, 
         "COB": 0, 
@@ -103,10 +104,10 @@
       }
     }, 
     "uploader": {
-      "battery": 70, 
-      "batteryVoltage": 3876
+      "battery": 71, 
+      "batteryVoltage": 3892
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "588860307cd6c90b1bb0c863"
+    "_id": "588862617cd6c90b1bb0c869"
   }
 ]
