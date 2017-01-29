@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-01-29T09:36:59.309Z", 
+    "created_at": "2017-01-29T09:44:07.015Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -86
+          -86.6
         ]
       ], 
-      "timestamp": "2017-01-29T09:36:45.293Z"
+      "timestamp": "2017-01-29T09:43:52.667Z"
     }, 
     "pump": {
       "battery": {
@@ -18,81 +18,80 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-01-29T09:31:46.620Z", 
+        "timestamp": "2017-01-29T09:39:18.374Z", 
         "bolusing": false, 
         "suspended": false
       }, 
       "reservoir": 64.075, 
-      "clock": "2017-01-29T01:32:01-08:00"
+      "clock": "2017-01-29T01:39:32-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 131, 
+        "bg": 122, 
         "temp": "absolute", 
-        "snoozeBG": 59, 
-        "timestamp": "2017-01-29T09:35:13.762Z", 
-        "rate": 0, 
-        "reason": "COB: 0, Dev: -8, BGI: -9.71, ISF: 95, Target: 102; Eventual BG 58 < 102, setting -0.95U/hr", 
-        "COB": 0, 
-        "eventualBG": 58, 
-        "duration": 30, 
-        "tick": -10, 
-        "IOB": 0.689
-      }, 
-      "iob": {
-        "netbasalinsulin": 1.4, 
-        "timestamp": "2017-01-29T09:32:01.000Z", 
-        "activity": 0.0205, 
-        "basaliob": 0.265, 
-        "hightempinsulin": 1.6, 
-        "bolussnooze": 0.006, 
-        "iob": 0.689
-      }, 
-      "enacted": {
-        "bg": 131, 
-        "temp": "absolute", 
-        "snoozeBG": 59, 
-        "recieved": true, 
+        "snoozeBG": 66, 
+        "timestamp": "2017-01-29T09:43:44.797Z", 
         "predBGs": {
           "IOB": [
-            131, 
-            120, 
-            110, 
-            101, 
-            92, 
+            122, 
+            111, 
+            102, 
+            93, 
             85, 
             78, 
             72, 
             67, 
             63, 
             60, 
-            57, 
-            55, 
-            54, 
-            53, 
-            53, 
-            54, 
-            55, 
-            56, 
             58, 
-            60, 
-            62, 
+            57, 
+            57, 
+            57, 
+            58, 
+            59, 
+            61, 
             64, 
-            65, 
-            67, 
-            68, 
-            70, 
-            71, 
+            66, 
+            69, 
             72, 
-            73, 
-            74, 
             75, 
-            75, 
-            76, 
-            76, 
-            77
+            78, 
+            80, 
+            82, 
+            84, 
+            86, 
+            88, 
+            90, 
+            91, 
+            92, 
+            93, 
+            94, 
+            95, 
+            96, 
+            96, 
+            97
           ]
         }, 
+        "reason": "COB: 0, Dev: -13, BGI: -8.67, ISF: 95, Target: 102; Eventual BG 66 < 102, setting -0.65U/hr, but 25m left and 0 ~ req 0U/hr: no action required", 
+        "COB": 0, 
+        "eventualBG": 66, 
+        "tick": -9, 
+        "IOB": 0.449
+      }, 
+      "iob": {
+        "netbasalinsulin": 1.35, 
+        "timestamp": "2017-01-29T09:39:32.000Z", 
+        "activity": 0.0183, 
+        "basaliob": 0.09, 
+        "hightempinsulin": 1.6, 
+        "bolussnooze": 0, 
+        "iob": 0.449
+      }, 
+      "enacted": {
+        "bg": 131, 
+        "temp": "absolute", 
+        "snoozeBG": 59, 
+        "recieved": true, 
         "reason": "COB: 0, Dev: -8, BGI: -9.71, ISF: 95, Target: 102; Eventual BG 58 < 102, setting -0.95U/hr", 
         "rate": 0, 
         "COB": 0, 
@@ -104,10 +103,10 @@
       }
     }, 
     "uploader": {
-      "battery": 71, 
-      "batteryVoltage": 3887
+      "battery": 70, 
+      "batteryVoltage": 3878
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "588db7bb66a70d33403c3c06"
+    "_id": "588db96766a70d33403c3c09"
   }
 ]
