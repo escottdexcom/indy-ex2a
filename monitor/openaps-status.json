@@ -7,36 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-03T14:24:25.460Z", 
+      "timestamp": "2017-02-03T14:36:13.108Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 91.7, 
-    "clock": "2017-02-03T06:24:41-08:00"
+    "reservoir": 91.625, 
+    "clock": "2017-02-03T06:36:29-08:00"
   }, 
   "uploader": {
     "battery": 71, 
-    "batteryVoltage": 3890
+    "batteryVoltage": 3886
   }, 
   "openaps": {
     "suggested": {
-      "bg": 80, 
+      "bg": 81, 
       "temp": "absolute", 
-      "snoozeBG": 94, 
-      "timestamp": "2017-02-03T14:29:23.943Z", 
+      "snoozeBG": 95, 
+      "timestamp": "2017-02-03T14:40:49.080Z", 
       "predBGs": {
         "IOB": [
-          80, 
-          79, 
-          79, 
-          78, 
-          78, 
-          78, 
-          79, 
-          79, 
-          80, 
+          81, 
+          81, 
+          81, 
+          81, 
           81, 
           82, 
+          83, 
           84, 
           85, 
           86, 
@@ -49,24 +45,29 @@
           93, 
           93, 
           94, 
-          94, 
-          95
+          95, 
+          95, 
+          96, 
+          96, 
+          96, 
+          96, 
+          97
         ]
       }, 
-      "reason": "COB: 0, Dev: -11, BGI: 0.78, ISF: 87, Target: 98; Eventual BG 94 < 98, temp 0.4 ~< req 0.4U/hr", 
+      "reason": "COB: 0, Dev: -8, BGI: 1.08, ISF: 87, Target: 80; Eventual BG 95 > 80 but Min. Delta -0.33 < Exp. Delta 0.2; setting current basal of 0.575 as temp, but 24m left and 0.55 ~ req 0.575U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 94, 
-      "tick": -1, 
-      "IOB": -0.285
+      "eventualBG": 95, 
+      "tick": "+1", 
+      "IOB": -0.258
     }, 
     "iob": {
-      "netbasalinsulin": -0.2, 
-      "timestamp": "2017-02-03T14:24:41.000Z", 
-      "activity": -0.0018, 
-      "basaliob": -0.285, 
-      "hightempinsulin": 0.15, 
+      "netbasalinsulin": -0.25, 
+      "timestamp": "2017-02-03T14:36:29.000Z", 
+      "activity": -0.0025, 
+      "basaliob": -0.258, 
+      "hightempinsulin": 0.1, 
       "bolussnooze": 0, 
-      "iob": -0.285
+      "iob": -0.258
     }, 
     "enacted": {
       "bg": 84, 
@@ -88,9 +89,9 @@
       [
         null, 
         0, 
-        -78.2
+        -71.8
       ]
     ], 
-    "timestamp": "2017-02-03T14:29:31.844Z"
+    "timestamp": "2017-02-03T14:40:57.010Z"
   }
 }
