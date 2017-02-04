@@ -3,96 +3,99 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.56
+      "voltage": 1.57
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-04T10:42:59.129Z", 
+      "timestamp": "2017-02-04T11:00:08.785Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 65.175, 
-    "clock": "2017-02-04T02:43:08-08:00"
+    "reservoir": 64.225, 
+    "clock": "2017-02-04T03:00:24-08:00"
   }, 
   "uploader": {
-    "battery": 69, 
-    "batteryVoltage": 3872
+    "battery": 70, 
+    "batteryVoltage": 3876
   }, 
   "openaps": {
     "suggested": {
-      "bg": 243, 
+      "bg": 250, 
       "temp": "absolute", 
-      "snoozeBG": 172, 
-      "timestamp": "2017-02-04T10:46:34.342Z", 
+      "snoozeBG": 170, 
+      "timestamp": "2017-02-04T11:03:23.918Z", 
+      "reason": "COB: 0, Dev: 54, BGI: -7.03, ISF: 94, Target: 80; Eventual BG 128 >= 80, 24m@1.800 = 0.720 > req 0.51+20%. Setting temp basal of 1.65U/hr", 
+      "rate": 1.65, 
+      "COB": 0, 
+      "eventualBG": 128, 
+      "duration": 30, 
+      "tick": "+2", 
+      "IOB": 1.88
+    }, 
+    "iob": {
+      "netbasalinsulin": 2.6, 
+      "timestamp": "2017-02-04T11:00:24.000Z", 
+      "activity": 0.015, 
+      "basaliob": 1.58, 
+      "hightempinsulin": 2.8, 
+      "bolussnooze": 0.3, 
+      "iob": 1.88
+    }, 
+    "enacted": {
+      "bg": 250, 
+      "temp": "absolute", 
+      "snoozeBG": 170, 
+      "recieved": true, 
       "predBGs": {
         "IOB": [
-          243, 
-          247, 
-          249, 
+          250, 
           251, 
           251, 
           250, 
-          247, 
+          248, 
           244, 
           240, 
-          235, 
-          229, 
-          222, 
-          214, 
-          207, 
-          200, 
-          192, 
-          186, 
+          234, 
+          227, 
+          219, 
+          211, 
+          201, 
+          190, 
           179, 
-          173, 
-          167, 
-          161, 
-          157, 
-          152, 
-          148, 
-          145, 
-          142, 
-          139, 
+          168, 
+          158, 
+          147, 
           137, 
-          135, 
-          134, 
-          132, 
-          131, 
-          130, 
-          130, 
-          129, 
-          129, 
-          128
+          127, 
+          117, 
+          109, 
+          101, 
+          94, 
+          87, 
+          81, 
+          76, 
+          71, 
+          66, 
+          63, 
+          59, 
+          56, 
+          54, 
+          52, 
+          50, 
+          49, 
+          48, 
+          47, 
+          46
         ]
       }, 
-      "reason": "COB: 0, Dev: 62, BGI: -5.63, ISF: 94, Target: 102; Eventual BG 172 >= 102, temp 2.025<2.15U/hr, but 29m left and 2.025 ~ req 2.15U/hr: no action required", 
+      "rate": 1.65, 
+      "reason": "COB: 0, Dev: 54, BGI: -7.03, ISF: 94, Target: 80; Eventual BG 128 >= 80, 24m@1.800 = 0.720 > req 0.51+20%. Setting temp basal of 1.65U/hr", 
       "COB": 0, 
-      "eventualBG": 172, 
-      "tick": "+5", 
-      "IOB": 1.422
-    }, 
-    "iob": {
-      "netbasalinsulin": 2.2, 
-      "timestamp": "2017-02-04T10:43:08.000Z", 
-      "activity": 0.012, 
-      "basaliob": 1.422, 
-      "hightempinsulin": 2.4, 
-      "bolussnooze": 0, 
-      "iob": 1.422
-    }, 
-    "enacted": {
-      "bg": 227, 
-      "temp": "absolute", 
-      "snoozeBG": 151, 
-      "recieved": true, 
-      "rate": 1.7, 
-      "reason": "COB: 0, Dev: 52, BGI: -4.64, ISF: 94, Target: 102; Eventual BG 151 >= 102, temp 1.625<1.7U/hr", 
-      "COB": 0, 
-      "eventualBG": 151, 
-      "timestamp": "2017-02-04T10:35:35.932Z", 
+      "eventualBG": 128, 
+      "timestamp": "2017-02-04T11:04:12.399Z", 
       "duration": 30, 
-      "tick": "+4", 
-      "IOB": 1.361
+      "tick": "+2", 
+      "IOB": 1.88
     }
   }, 
   "mmtune": {
@@ -100,9 +103,9 @@
       [
         null, 
         0, 
-        -81.6
+        -86.2
       ]
     ], 
-    "timestamp": "2017-02-04T10:46:42.263Z"
+    "timestamp": "2017-02-04T11:04:20.269Z"
   }
 }
