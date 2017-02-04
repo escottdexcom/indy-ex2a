@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-02-04T07:10:14.147Z", 
+    "created_at": "2017-02-04T07:17:46.534Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -80.8
+          -88.2
         ]
       ], 
-      "timestamp": "2017-02-04T07:09:57.222Z"
+      "timestamp": "2017-02-04T07:17:32.608Z"
     }, 
     "pump": {
       "battery": {
@@ -18,156 +18,32 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-02-04T07:05:25.697Z", 
+        "timestamp": "2017-02-04T07:14:25.696Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 70.7, 
-      "clock": "2017-02-03T23:05:42-08:00"
+      "reservoir": 70.55, 
+      "clock": "2017-02-03T23:14:42-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 131, 
-        "temp": "absolute", 
-        "snoozeBG": 77, 
-        "timestamp": "2017-02-04T07:08:46.310Z", 
-        "rate": 1.2, 
-        "reason": "COB: 65, Dev: 16, BGI: -4.36, ISF: 90, Target: 80; Eventual BG 111 > 80 but Min. Delta -5.00 < Exp. Delta -2.8; setting current basal of 1.2 as temp. Setting neutral temp basal of 1.2U/hr", 
-        "COB": 65, 
-        "eventualBG": 111, 
-        "duration": 30, 
-        "tick": -5, 
-        "IOB": 1.056
+        "timestamp": "2017-02-04T07:17:24.748Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Fri Feb 03 2017 23:07:14 GMT-0800 (PST) but your system time is Fri Feb 03 2017 23:17:24 GMT-0800 (PST)"
       }, 
       "iob": {
         "netbasalinsulin": 1.1, 
-        "timestamp": "2017-02-04T07:05:42.000Z", 
-        "activity": 0.0097, 
-        "basaliob": 0.981, 
+        "timestamp": "2017-02-04T07:14:42.000Z", 
+        "activity": 0.0093, 
+        "basaliob": 0.983, 
         "hightempinsulin": 1.25, 
         "bolussnooze": 0, 
-        "iob": 1.056
+        "iob": 1.022
       }, 
       "enacted": {
         "bg": 131, 
         "temp": "absolute", 
         "snoozeBG": 77, 
         "recieved": true, 
-        "predBGs": {
-          "COB": [
-            131, 
-            131, 
-            130, 
-            130, 
-            130, 
-            129, 
-            128, 
-            127, 
-            125, 
-            123, 
-            121, 
-            119, 
-            116, 
-            112, 
-            109, 
-            105, 
-            102, 
-            98, 
-            94, 
-            91, 
-            88, 
-            85, 
-            83, 
-            81, 
-            79, 
-            78, 
-            78, 
-            77, 
-            78, 
-            78, 
-            79, 
-            81, 
-            82, 
-            84, 
-            86, 
-            89, 
-            92, 
-            95, 
-            98, 
-            101, 
-            105, 
-            108, 
-            111
-          ], 
-          "aCOB": [
-            131, 
-            137, 
-            142, 
-            148, 
-            153, 
-            158, 
-            163, 
-            167, 
-            171, 
-            174, 
-            177, 
-            180, 
-            182, 
-            184, 
-            186, 
-            187, 
-            188, 
-            190, 
-            191, 
-            192, 
-            193, 
-            195, 
-            197, 
-            200, 
-            203, 
-            206, 
-            209, 
-            213, 
-            218, 
-            222, 
-            227, 
-            232, 
-            238, 
-            244, 
-            249, 
-            256, 
-            262, 
-            268, 
-            275, 
-            281, 
-            288, 
-            295, 
-            301
-          ], 
-          "IOB": [
-            131, 
-            130, 
-            129, 
-            128, 
-            127, 
-            124, 
-            121, 
-            118, 
-            114, 
-            109, 
-            104, 
-            97, 
-            91, 
-            84, 
-            76, 
-            69, 
-            62, 
-            54, 
-            47, 
-            40, 
-            39
-          ]
-        }, 
         "reason": "COB: 65, Dev: 16, BGI: -4.36, ISF: 90, Target: 80; Eventual BG 111 > 80 but Min. Delta -5.00 < Exp. Delta -2.8; setting current basal of 1.2 as temp. Setting neutral temp basal of 1.2U/hr", 
         "rate": 1.2, 
         "COB": 65, 
@@ -180,9 +56,9 @@
     }, 
     "uploader": {
       "battery": 69, 
-      "batteryVoltage": 3868
+      "batteryVoltage": 3871
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "58957e56f6a04d9e7b96bc0b"
+    "_id": "5895801af6a04d9e7b96bc0e"
   }
 ]
