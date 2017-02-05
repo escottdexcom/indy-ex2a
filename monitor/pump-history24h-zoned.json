@@ -1,6 +1,63 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-02-04T16:23:37 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-02-04T16:23:37-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "2597104411"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-02-04T16:23:37 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-02-04T16:23:37-08:00", 
+    "_body": "00", 
+    "_head": "331c", 
+    "rate": 0.7, 
+    "_date": "2597104411"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-02-04T16:18:26 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-02-04T16:18:26-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "1a92104411"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-02-04T16:18:26 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-02-04T16:18:26-08:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "1a92104411"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-02-04T16:03:54 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-02-04T16:03:54-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "3683104411"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-02-04T16:03:54 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-02-04T16:03:54-08:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "3683104411"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2017-02-04T15:43:15 head[2], body[0] op[0x16]", 
     "timestamp": "2017-02-04T15:43:15-08:00", 
     "_body": "", 
@@ -3817,81 +3874,5 @@
     "_head": "3317", 
     "rate": 0.575, 
     "_date": "21a60d4311"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-02-03T13:22:14 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-02-03T13:22:14-08:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "0e960d4311"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-02-03T13:22:14 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-02-03T13:22:14-08:00", 
-    "_body": "00", 
-    "_head": "3317", 
-    "rate": 0.575, 
-    "_date": "0e960d4311"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-02-03T13:16:37 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-02-03T13:16:37-08:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "25900d4311"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-02-03T13:16:37 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-02-03T13:16:37-08:00", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "25900d4311"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-02-03T13:04:04 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-02-03T13:04:04-08:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "04840d4311"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-02-03T13:04:04 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-02-03T13:04:04-08:00", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "04840d4311"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-02-03T12:45:15 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-02-03T12:45:15-08:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "0fad0c4311"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-02-03T12:45:15 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-02-03T12:45:15-08:00", 
-    "_body": "00", 
-    "_head": "3317", 
-    "rate": 0.575, 
-    "_date": "0fad0c4311"
   }
 ]
