@@ -7,103 +7,36 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-05T19:19:54.107Z", 
+      "timestamp": "2017-02-05T19:30:24.475Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 124.875, 
-    "clock": "2017-02-05T11:20:10-08:00"
+    "clock": "2017-02-05T11:30:42-08:00"
   }, 
   "uploader": {
-    "battery": 81, 
-    "batteryVoltage": 3995
+    "battery": 70, 
+    "batteryVoltage": 3882
   }, 
   "openaps": {
     "suggested": {
-      "bg": 125, 
-      "temp": "absolute", 
-      "snoozeBG": 70, 
-      "timestamp": "2017-02-05T19:22:30.709Z", 
-      "reason": "COB: 3, Dev: -11, BGI: -3.69, ISF: 90, Target: 100; Eventual BG 70 < 100, setting -0.725U/hr", 
-      "rate": 0, 
-      "COB": 3, 
-      "eventualBG": 70, 
-      "duration": 30, 
-      "tick": -7, 
-      "IOB": 0.484
+      "timestamp": "2017-02-05T19:32:58.767Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Feb 05 2017 11:22:08 GMT-0800 (PST) but your system time is Sun Feb 05 2017 11:32:58 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": 0.35, 
-      "timestamp": "2017-02-05T19:20:10.000Z", 
-      "activity": 0.0082, 
-      "basaliob": 0.335, 
+      "netbasalinsulin": 0.3, 
+      "timestamp": "2017-02-05T19:30:42.000Z", 
+      "activity": 0.0076, 
+      "basaliob": 0.206, 
       "hightempinsulin": 0.5, 
       "bolussnooze": 0, 
-      "iob": 0.484
+      "iob": 0.302
     }, 
     "enacted": {
       "bg": 125, 
       "temp": "absolute", 
       "snoozeBG": 70, 
       "recieved": true, 
-      "predBGs": {
-        "aCOB": [
-          125, 
-          126, 
-          126, 
-          124, 
-          121, 
-          116, 
-          111, 
-          107, 
-          103, 
-          100, 
-          98, 
-          96, 
-          94, 
-          93, 
-          92, 
-          90, 
-          89, 
-          88, 
-          88, 
-          87, 
-          86, 
-          86, 
-          85, 
-          85, 
-          85, 
-          84
-        ], 
-        "IOB": [
-          125, 
-          118, 
-          112, 
-          106, 
-          101, 
-          96, 
-          91, 
-          87, 
-          83, 
-          80, 
-          78, 
-          76, 
-          74, 
-          73, 
-          72, 
-          70, 
-          69, 
-          68, 
-          68, 
-          67, 
-          66, 
-          66, 
-          65, 
-          65, 
-          65, 
-          64
-        ]
-      }, 
       "rate": 0, 
       "reason": "COB: 3, Dev: -11, BGI: -3.69, ISF: 90, Target: 100; Eventual BG 70 < 100, setting -0.725U/hr", 
       "COB": 3, 
@@ -119,9 +52,9 @@
       [
         null, 
         0, 
-        -89
+        -84
       ]
     ], 
-    "timestamp": "2017-02-05T19:24:05.270Z"
+    "timestamp": "2017-02-05T19:33:06.937Z"
   }
 }
