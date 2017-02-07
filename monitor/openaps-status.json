@@ -7,76 +7,30 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-07T12:11:44.020Z", 
+      "timestamp": "2017-02-07T12:25:12.958Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 78.975, 
-    "clock": "2017-02-07T04:11:56-08:00"
+    "reservoir": 78.925, 
+    "clock": "2017-02-07T04:23:21-08:00"
   }, 
   "uploader": {
     "battery": 68, 
-    "batteryVoltage": 3858
+    "batteryVoltage": 3863
   }, 
   "openaps": {
     "suggested": {
-      "bg": 89, 
-      "temp": "absolute", 
-      "snoozeBG": 98, 
-      "timestamp": "2017-02-07T12:16:41.213Z", 
-      "predBGs": {
-        "IOB": [
-          89, 
-          89, 
-          89, 
-          89, 
-          89, 
-          90, 
-          90, 
-          91, 
-          92, 
-          92, 
-          93, 
-          95, 
-          96, 
-          97, 
-          98, 
-          99, 
-          100, 
-          101, 
-          102, 
-          103, 
-          104, 
-          105, 
-          105, 
-          106, 
-          106, 
-          107, 
-          107, 
-          107, 
-          108, 
-          108, 
-          108, 
-          108, 
-          108, 
-          108, 
-          109
-        ]
-      }, 
-      "reason": "COB: 0, Dev: -7, BGI: 0.95, ISF: 90, Target: 100; Eventual BG 98 < 100, temp 0.375 ~< req 0.45U/hr", 
-      "COB": 0, 
-      "eventualBG": 98, 
-      "tick": "+0", 
-      "IOB": -0.182
+      "timestamp": "2017-02-07T12:28:43.080Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Tue Feb 07 2017 04:18:12 GMT-0800 (PST) but your system time is Tue Feb 07 2017 04:28:43 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": -0.4, 
-      "timestamp": "2017-02-07T12:11:56.000Z", 
-      "activity": -0.0021, 
-      "basaliob": -0.182, 
+      "netbasalinsulin": -0.35, 
+      "timestamp": "2017-02-07T12:23:21.000Z", 
+      "activity": -0.0023, 
+      "basaliob": -0.156, 
       "hightempinsulin": 0.25, 
       "bolussnooze": 0, 
-      "iob": -0.182
+      "iob": -0.156
     }, 
     "enacted": {
       "bg": 90, 
@@ -98,9 +52,9 @@
       [
         null, 
         0, 
-        -84.2
+        -79.8
       ]
     ], 
-    "timestamp": "2017-02-07T12:16:49.063Z"
+    "timestamp": "2017-02-07T12:28:50.930Z"
   }
 }
