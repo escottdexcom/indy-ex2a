@@ -1,5 +1,43 @@
 [
   {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2017-02-06T19:56:18 head[2], body[3] op[0x3f]", 
+    "timestamp": "2017-02-06T19:56:18", 
+    "_body": "c23647", 
+    "_head": "3f0d", 
+    "amount": 104, 
+    "_date": "12b8136611"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2017-02-06T19:56:18 head[2], body[0] op[0x0a]", 
+    "timestamp": "2017-02-06T19:56:18", 
+    "_body": "", 
+    "_head": "0a68", 
+    "amount": 104, 
+    "_date": "12b8336611"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2017-02-06T19:53:13 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-02-06T19:53:13", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "0db5134611"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-02-06T19:53:13 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-02-06T19:53:13", 
+    "_body": "00", 
+    "_head": "3323", 
+    "rate": 0.875, 
+    "_date": "0db5134611"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2017-02-06T19:35:33 head[2], body[0] op[0x16]", 
@@ -815,81 +853,5 @@
     "_head": "3336", 
     "rate": 1.35, 
     "_date": "30830e4611"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2017-02-06T13:53:50 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-02-06T13:53:50", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "32b50d4611"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-02-06T13:53:50 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-02-06T13:53:50", 
-    "_body": "00", 
-    "_head": "3314", 
-    "rate": 0.5, 
-    "_date": "32b50d4611"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2017-02-06T13:49:10 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-02-06T13:49:10", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "0ab10d4611"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-02-06T13:49:10 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-02-06T13:49:10", 
-    "_body": "00", 
-    "_head": "3322", 
-    "rate": 0.85, 
-    "_date": "0ab10d4611"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "link": "c23647", 
-    "_description": "BGReceived 2017-02-06T13:45:04 head[2], body[3] op[0x3f]", 
-    "timestamp": "2017-02-06T13:45:04", 
-    "_body": "c23647", 
-    "_head": "3f10", 
-    "amount": 130, 
-    "_date": "04ad4d6611"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2017-02-06T13:45:04 head[2], body[0] op[0x0a]", 
-    "timestamp": "2017-02-06T13:45:04", 
-    "_body": "", 
-    "_head": "0a82", 
-    "amount": 130, 
-    "_date": "04ad2d6611"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2017-02-06T13:43:51 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-02-06T13:43:51", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "33ab0d4611"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-02-06T13:43:51 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-02-06T13:43:51", 
-    "_body": "00", 
-    "_head": "3332", 
-    "rate": 1.25, 
-    "_date": "33ab0d4611"
   }
 ]
