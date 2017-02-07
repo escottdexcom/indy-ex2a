@@ -7,54 +7,54 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-07T14:04:49.635Z", 
+      "timestamp": "2017-02-07T14:13:58.400Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 78.25, 
-    "clock": "2017-02-07T06:04:58-08:00"
+    "reservoir": 78.15, 
+    "clock": "2017-02-07T06:14:16-08:00"
   }, 
   "uploader": {
-    "battery": 66, 
-    "batteryVoltage": 3840
+    "battery": 68, 
+    "batteryVoltage": 3863
   }, 
   "openaps": {
     "suggested": {
       "bg": 101, 
       "temp": "absolute", 
-      "snoozeBG": 104, 
-      "timestamp": "2017-02-07T14:08:00.677Z", 
+      "snoozeBG": 101, 
+      "timestamp": "2017-02-07T14:17:24.973Z", 
       "predBGs": {
         "IOB": [
           101, 
+          101, 
+          101, 
+          101, 
+          101, 
+          101, 
+          101, 
+          101, 
+          101, 
+          101, 
           102, 
           102, 
-          103, 
-          103, 
-          104, 
-          104, 
-          104, 
-          104, 
-          105, 
-          105, 
-          105, 
-          106
+          102
         ]
       }, 
-      "reason": "COB: 0, Dev: -5, BGI: 1.31, ISF: 90, Target: 100; Eventual BG 104 > 100 but Min. Delta 0.53 < Exp. Delta 1.1, temp 0.55 ~ req 0.55U/hr", 
+      "reason": "COB: 0, Dev: -6, BGI: 1.13, ISF: 90, Target: 100; Eventual BG 101 > 100 but Min. Delta 0.00 < Exp. Delta 1.1, temp 0.55 ~ req 0.55U/hr", 
       "COB": 0, 
-      "eventualBG": 104, 
-      "tick": "+1", 
-      "IOB": -0.091
+      "eventualBG": 101, 
+      "tick": "+0", 
+      "IOB": -0.066
     }, 
     "iob": {
-      "netbasalinsulin": -0.45, 
-      "timestamp": "2017-02-07T14:04:58.000Z", 
-      "activity": -0.0029, 
-      "basaliob": -0.091, 
+      "netbasalinsulin": -0.3, 
+      "timestamp": "2017-02-07T14:14:16.000Z", 
+      "activity": -0.0025, 
+      "basaliob": -0.066, 
       "hightempinsulin": 0.15, 
       "bolussnooze": 0, 
-      "iob": -0.091
+      "iob": -0.066
     }
   }, 
   "mmtune": {
@@ -62,9 +62,9 @@
       [
         null, 
         0, 
-        -79.2
+        -86
       ]
     ], 
-    "timestamp": "2017-02-07T14:08:09.207Z"
+    "timestamp": "2017-02-07T14:17:32.873Z"
   }
 }
