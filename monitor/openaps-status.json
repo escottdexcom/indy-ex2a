@@ -6,31 +6,55 @@
       "voltage": 1.44
     }, 
     "status": {
-      "status": "error", 
-      "timestamp": "2017-02-08T04:06:19.165Z", 
+      "status": "normal", 
+      "timestamp": "2017-02-08T04:16:57.180Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 127.45, 
-    "clock": "2017-02-07T20:06:37-08:00"
+    "reservoir": 127, 
+    "clock": "2017-02-07T20:17:16-08:00"
   }, 
   "uploader": {
-    "battery": 82, 
-    "batteryVoltage": 4002
+    "battery": 81, 
+    "batteryVoltage": 3985
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-02-08T04:09:20.817Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Tue Feb 07 2017 19:58:09 GMT-0800 (PST) but your system time is Tue Feb 07 2017 20:09:20 GMT-0800 (PST)"
+      "bg": 111, 
+      "temp": "absolute", 
+      "snoozeBG": 115, 
+      "timestamp": "2017-02-08T04:20:42.252Z", 
+      "predBGs": {
+        "IOB": [
+          111, 
+          111, 
+          111, 
+          111, 
+          111, 
+          111, 
+          111, 
+          111, 
+          111, 
+          111, 
+          111, 
+          111, 
+          111
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -2, BGI: 0.27, ISF: 91, Target: 100; Eventual BG 115 >= 100, temp 1.125<1.2U/hr, but 23m left and 1.125 ~ req 1.2U/hr: no action required", 
+      "COB": 0, 
+      "eventualBG": 115, 
+      "tick": "+1", 
+      "IOB": -0.063
     }, 
     "iob": {
-      "netbasalinsulin": 0, 
-      "timestamp": "2017-02-08T04:06:37.000Z", 
-      "activity": -0.0007, 
-      "basaliob": -0.07, 
+      "netbasalinsulin": -0.05, 
+      "timestamp": "2017-02-08T04:17:16.000Z", 
+      "activity": -0.0006, 
+      "basaliob": -0.063, 
       "hightempinsulin": 0.6, 
       "bolussnooze": 0, 
-      "iob": -0.07
+      "iob": -0.063
     }, 
     "enacted": {
       "bg": 110, 
@@ -52,9 +76,9 @@
       [
         null, 
         0, 
-        -79.8
+        -60.8
       ]
     ], 
-    "timestamp": "2017-02-08T04:09:28.717Z"
+    "timestamp": "2017-02-08T04:20:50.122Z"
   }
 }
