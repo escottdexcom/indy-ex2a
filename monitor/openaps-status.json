@@ -3,134 +3,74 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.57
+      "voltage": 1.58
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-10T00:13:16.801Z", 
+      "timestamp": "2017-02-10T02:34:43.972Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 75.55, 
-    "clock": "2017-02-09T16:12:10-08:00"
+    "reservoir": 73.925, 
+    "clock": "2017-02-09T18:33:52-08:00"
   }, 
   "uploader": {
-    "battery": 93, 
-    "batteryVoltage": 4109
+    "battery": 80, 
+    "batteryVoltage": 3981
   }, 
   "openaps": {
     "suggested": {
       "bg": 81, 
       "temp": "absolute", 
-      "snoozeBG": 116, 
-      "timestamp": "2017-02-10T00:16:05.342Z", 
-      "predBGs": {
-        "aCOB": [
-          81, 
-          91, 
-          102, 
-          112, 
-          123, 
-          133, 
-          143, 
-          152, 
-          162, 
-          171, 
-          179, 
-          187, 
-          195, 
-          202, 
-          208, 
-          214, 
-          219, 
-          223, 
-          227, 
-          231, 
-          234, 
-          236, 
-          238, 
-          240, 
-          241, 
-          242, 
-          242, 
-          242, 
-          241, 
-          241, 
-          241, 
-          240, 
-          240, 
-          240, 
-          240, 
-          240, 
-          239
-        ], 
-        "IOB": [
-          81, 
-          82, 
-          83, 
-          84, 
-          86, 
-          88, 
-          90, 
-          92, 
-          95, 
-          97, 
-          99, 
-          101, 
-          103, 
-          104, 
-          106, 
-          107, 
-          108, 
-          108, 
-          109, 
-          109, 
-          109, 
-          109, 
-          109, 
-          109, 
-          109, 
-          108, 
-          108, 
-          108, 
-          107, 
-          107, 
-          107, 
-          106, 
-          106, 
-          106, 
-          106, 
-          105
-        ]
-      }, 
-      "reason": "COB: 18, Dev: -3, BGI: 1.25, ISF: 93, Target: 101; Eventual BG 116 >= 101, temp 1 >~ req 0.9U/hr", 
-      "COB": 18, 
-      "eventualBG": 116, 
-      "tick": "+1", 
-      "IOB": -0.426
+      "snoozeBG": 63, 
+      "timestamp": "2017-02-10T02:37:27.354Z", 
+      "reason": "COB: 0, Dev: -16, BGI: -0.37, ISF: 93, Target: 101; Eventual BG 63 < 101, setting -0.975U/hr", 
+      "rate": 0, 
+      "COB": 0, 
+      "eventualBG": 63, 
+      "duration": 30, 
+      "tick": -3, 
+      "IOB": 0.019
     }, 
     "iob": {
-      "netbasalinsulin": 0.2, 
-      "timestamp": "2017-02-10T00:12:10.000Z", 
-      "activity": -0.0027, 
-      "basaliob": -0.426, 
-      "hightempinsulin": 0.95, 
+      "netbasalinsulin": 0.05, 
+      "timestamp": "2017-02-10T02:33:52.000Z", 
+      "activity": 0.0008, 
+      "basaliob": 0.019, 
+      "hightempinsulin": 0.2, 
       "bolussnooze": 0, 
-      "iob": -0.426
+      "iob": 0.019
     }, 
     "enacted": {
-      "bg": 79, 
+      "bg": 81, 
       "temp": "absolute", 
-      "snoozeBG": 119, 
+      "snoozeBG": 63, 
       "recieved": true, 
-      "rate": 1, 
-      "reason": "COB: 20, Dev: -1, BGI: 0.5, ISF: 91, Target: 100; Eventual BG 119 >= 100, temp 0.775<1U/hr", 
-      "COB": 20, 
-      "eventualBG": 119, 
-      "timestamp": "2017-02-10T00:06:11.806Z", 
+      "predBGs": {
+        "IOB": [
+          81, 
+          78, 
+          76, 
+          73, 
+          71, 
+          70, 
+          68, 
+          67, 
+          66, 
+          65, 
+          65, 
+          65, 
+          65
+        ]
+      }, 
+      "rate": 0, 
+      "reason": "COB: 0, Dev: -16, BGI: -0.37, ISF: 93, Target: 101; Eventual BG 63 < 101, setting -0.975U/hr", 
+      "COB": 0, 
+      "eventualBG": 63, 
+      "timestamp": "2017-02-10T02:40:01.345Z", 
       "duration": 30, 
-      "tick": "+1", 
-      "IOB": -0.45
+      "tick": -3, 
+      "IOB": 0.019
     }
   }, 
   "mmtune": {
@@ -138,9 +78,9 @@
       [
         null, 
         0, 
-        -85.6
+        -87.6
       ]
     ], 
-    "timestamp": "2017-02-10T00:16:13.352Z"
+    "timestamp": "2017-02-10T02:40:13.375Z"
   }
 }
