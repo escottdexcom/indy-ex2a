@@ -7,30 +7,67 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-12T11:15:18.596Z", 
+      "timestamp": "2017-02-12T11:23:54.241Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 92.575, 
-    "clock": "2017-02-12T03:15:38-08:00"
+    "reservoir": 92.475, 
+    "clock": "2017-02-12T03:24:14-08:00"
   }, 
   "uploader": {
-    "battery": 70, 
-    "batteryVoltage": 3879
+    "battery": 71, 
+    "batteryVoltage": 3887
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-02-12T11:17:57.238Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Feb 12 2017 03:07:51 GMT-0800 (PST) but your system time is Sun Feb 12 2017 03:17:57 GMT-0800 (PST)"
+      "bg": 103, 
+      "temp": "absolute", 
+      "snoozeBG": 91, 
+      "timestamp": "2017-02-12T11:27:25.313Z", 
+      "predBGs": {
+        "IOB": [
+          103, 
+          99, 
+          96, 
+          93, 
+          90, 
+          88, 
+          86, 
+          85, 
+          84, 
+          83, 
+          83, 
+          83, 
+          83, 
+          83, 
+          83, 
+          83, 
+          84, 
+          84, 
+          84, 
+          85, 
+          85, 
+          85, 
+          86, 
+          86, 
+          86, 
+          87
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -7, BGI: -2.52, ISF: 83, Target: 97; Eventual BG 91 < 97, temp 0.525 ~< req 0.425U/hr", 
+      "COB": 0, 
+      "eventualBG": 91, 
+      "tick": -4, 
+      "IOB": 0.059
     }, 
     "iob": {
-      "netbasalinsulin": 1.15, 
-      "timestamp": "2017-02-12T11:15:38.000Z", 
-      "activity": 0.0072, 
-      "basaliob": 0.064, 
+      "netbasalinsulin": 1.2, 
+      "timestamp": "2017-02-12T11:24:14.000Z", 
+      "activity": 0.0061, 
+      "basaliob": 0.059, 
       "hightempinsulin": 1.45, 
       "bolussnooze": 0, 
-      "iob": 0.064
+      "iob": 0.059
     }, 
     "enacted": {
       "bg": 113, 
@@ -52,9 +89,9 @@
       [
         null, 
         0, 
-        -77.4
+        -81.8
       ]
     ], 
-    "timestamp": "2017-02-12T11:18:05.458Z"
+    "timestamp": "2017-02-12T11:27:33.163Z"
   }
 }
