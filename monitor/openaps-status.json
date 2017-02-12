@@ -7,38 +7,36 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-12T11:39:00.481Z", 
+      "timestamp": "2017-02-12T11:48:31.187Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 92.4, 
-    "clock": "2017-02-12T03:39:19-08:00"
+    "reservoir": 92.375, 
+    "clock": "2017-02-12T03:48:51-08:00"
   }, 
   "uploader": {
-    "battery": 70, 
-    "batteryVoltage": 3883
+    "battery": 71, 
+    "batteryVoltage": 3888
   }, 
   "openaps": {
     "suggested": {
-      "bg": 96, 
+      "bg": 93, 
       "temp": "absolute", 
-      "snoozeBG": 92, 
-      "timestamp": "2017-02-12T11:42:34.313Z", 
+      "snoozeBG": 96, 
+      "timestamp": "2017-02-12T11:52:06.570Z", 
       "predBGs": {
         "IOB": [
-          96, 
           93, 
           91, 
           89, 
+          88, 
           87, 
           86, 
-          85, 
-          85, 
-          85, 
-          85, 
-          85, 
           86, 
           86, 
+          86, 
+          86, 
+          87, 
           87, 
           88, 
           89, 
@@ -61,20 +59,20 @@
           100
         ]
       }, 
-      "reason": "COB: 0, Dev: -9, BGI: -1.47, ISF: 84, Target: 97; Eventual BG 92 < 97, temp 0.25 ~< req 0.35U/hr", 
+      "reason": "COB: 0, Dev: -8, BGI: -0.88, ISF: 84, Target: 97; Eventual BG 96 < 97, temp 0.25 ~< req 0.55U/hr", 
       "COB": 0, 
-      "eventualBG": 92, 
-      "tick": -2, 
-      "IOB": -0.057
+      "eventualBG": 96, 
+      "tick": "+1", 
+      "IOB": -0.13
     }, 
     "iob": {
-      "netbasalinsulin": 0.8, 
-      "timestamp": "2017-02-12T11:39:19.000Z", 
-      "activity": 0.0035, 
-      "basaliob": -0.057, 
-      "hightempinsulin": 1.1, 
+      "netbasalinsulin": 0.6, 
+      "timestamp": "2017-02-12T11:48:51.000Z", 
+      "activity": 0.0021, 
+      "basaliob": -0.13, 
+      "hightempinsulin": 0.95, 
       "bolussnooze": 0, 
-      "iob": -0.057
+      "iob": -0.13
     }, 
     "enacted": {
       "bg": 113, 
@@ -96,9 +94,9 @@
       [
         null, 
         0, 
-        -78
+        -81.8
       ]
     ], 
-    "timestamp": "2017-02-12T11:42:42.143Z"
+    "timestamp": "2017-02-12T11:52:14.440Z"
   }
 }
