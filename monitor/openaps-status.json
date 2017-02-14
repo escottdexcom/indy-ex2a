@@ -7,67 +7,30 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-14T13:38:39.244Z", 
+      "timestamp": "2017-02-14T13:50:27.400Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 106.125, 
-    "clock": "2017-02-14T05:39:00-08:00"
+    "reservoir": 106.025, 
+    "clock": "2017-02-14T05:50:48-08:00"
   }, 
   "uploader": {
-    "battery": 70, 
-    "batteryVoltage": 3876
+    "battery": 67, 
+    "batteryVoltage": 3854
   }, 
   "openaps": {
     "suggested": {
-      "bg": 135, 
-      "temp": "absolute", 
-      "snoozeBG": 99, 
-      "timestamp": "2017-02-14T13:41:58.606Z", 
-      "predBGs": {
-        "IOB": [
-          135, 
-          132, 
-          129, 
-          126, 
-          124, 
-          121, 
-          118, 
-          116, 
-          114, 
-          112, 
-          110, 
-          108, 
-          106, 
-          105, 
-          104, 
-          103, 
-          102, 
-          101, 
-          100, 
-          100, 
-          99, 
-          99, 
-          98, 
-          98, 
-          98, 
-          97
-        ]
-      }, 
-      "reason": "COB: 0, Dev: 0, BGI: -3.07, ISF: 82, Target: 96; Eventual BG 99 >= 96, temp 0.575<0.6U/hr, but 30m left and 0.575 ~ req 0.6U/hr: no action required", 
-      "COB": 0, 
-      "eventualBG": 99, 
-      "tick": -3, 
-      "IOB": 0.434
+      "timestamp": "2017-02-14T13:53:07.551Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Tue Feb 14 2017 05:42:54 GMT-0800 (PST) but your system time is Tue Feb 14 2017 05:53:07 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": 0.9, 
-      "timestamp": "2017-02-14T13:39:00.000Z", 
-      "activity": 0.0075, 
-      "basaliob": 0.434, 
+      "netbasalinsulin": 1.05, 
+      "timestamp": "2017-02-14T13:50:48.000Z", 
+      "activity": 0.0071, 
+      "basaliob": 0.349, 
       "hightempinsulin": 1.1, 
       "bolussnooze": 0, 
-      "iob": 0.434
+      "iob": 0.349
     }, 
     "enacted": {
       "bg": 147, 
@@ -89,9 +52,9 @@
       [
         null, 
         0, 
-        -74.2
+        -84.2
       ]
     ], 
-    "timestamp": "2017-02-14T13:42:06.976Z"
+    "timestamp": "2017-02-14T13:53:15.652Z"
   }
 }
