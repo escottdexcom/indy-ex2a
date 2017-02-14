@@ -7,94 +7,93 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-14T13:07:23.772Z", 
+      "timestamp": "2017-02-14T13:18:50.006Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 106.575, 
-    "clock": "2017-02-14T05:07:44-08:00"
+    "reservoir": 106.35, 
+    "clock": "2017-02-14T05:19:11-08:00"
   }, 
   "uploader": {
     "battery": 69, 
-    "batteryVoltage": 3870
+    "batteryVoltage": 3869
   }, 
   "openaps": {
     "suggested": {
-      "bg": 148, 
+      "bg": 147, 
       "temp": "absolute", 
-      "snoozeBG": 113, 
-      "timestamp": "2017-02-14T13:10:24.263Z", 
-      "predBGs": {
-        "IOB": [
-          148, 
-          147, 
-          145, 
-          144, 
-          142, 
-          140, 
-          139, 
-          137, 
-          135, 
-          133, 
-          131, 
-          129, 
-          127, 
-          126, 
-          124, 
-          123, 
-          122, 
-          122, 
-          122, 
-          121, 
-          121, 
-          121, 
-          122, 
-          122, 
-          122, 
-          122, 
-          123, 
-          123, 
-          123, 
-          124, 
-          124, 
-          124, 
-          124, 
-          125, 
-          125, 
-          125, 
-          125, 
-          125, 
-          126
-        ]
-      }, 
-      "reason": "COB: 0, Dev: 11, BGI: -2.9, ISF: 82, Target: 96; Eventual BG 113 >= 96, 30m@0.525 = 0.263 > req 0.15+20%. Setting temp basal of 0.9U/hr, but 30m left and 1.125 ~ req 0.9U/hr: no action required", 
+      "snoozeBG": 111, 
+      "timestamp": "2017-02-14T13:22:50.417Z", 
+      "reason": "COB: 0, Dev: 12, BGI: -3.03, ISF: 82, Target: 96; Eventual BG 111 >= 96, 25m@0.500 = 0.208 > req 0.13+20%. Setting temp basal of 0.85U/hr", 
+      "rate": 0.85, 
       "COB": 0, 
-      "eventualBG": 113, 
+      "eventualBG": 111, 
+      "duration": 30, 
       "tick": -1, 
-      "IOB": 0.567
+      "IOB": 0.583
     }, 
     "iob": {
-      "netbasalinsulin": 0.85, 
-      "timestamp": "2017-02-14T13:07:44.000Z", 
-      "activity": 0.0071, 
-      "basaliob": 0.567, 
-      "hightempinsulin": 1.1, 
+      "netbasalinsulin": 0.95, 
+      "timestamp": "2017-02-14T13:19:11.000Z", 
+      "activity": 0.0074, 
+      "basaliob": 0.583, 
+      "hightempinsulin": 1.2, 
       "bolussnooze": 0, 
-      "iob": 0.567
+      "iob": 0.583
     }, 
     "enacted": {
-      "bg": 149, 
+      "bg": 147, 
       "temp": "absolute", 
-      "snoozeBG": 71, 
+      "snoozeBG": 111, 
       "recieved": true, 
-      "rate": 0, 
-      "reason": "COB: 0, Dev: 42, BGI: -7.03, ISF: 82, Target: 96; Eventual BG 71 < 96, setting -1.225U/hr. Setting neutral temp basal of 0U/hr", 
+      "predBGs": {
+        "IOB": [
+          147, 
+          146, 
+          144, 
+          143, 
+          141, 
+          139, 
+          137, 
+          134, 
+          132, 
+          129, 
+          126, 
+          124, 
+          121, 
+          118, 
+          115, 
+          113, 
+          110, 
+          108, 
+          105, 
+          103, 
+          101, 
+          100, 
+          98, 
+          96, 
+          95, 
+          94, 
+          93, 
+          92, 
+          91, 
+          90, 
+          89, 
+          89, 
+          88, 
+          88, 
+          88, 
+          87
+        ]
+      }, 
+      "rate": 0.85, 
+      "reason": "COB: 0, Dev: 12, BGI: -3.03, ISF: 82, Target: 96; Eventual BG 111 >= 96, 25m@0.500 = 0.208 > req 0.13+20%. Setting temp basal of 0.85U/hr", 
       "COB": 0, 
-      "eventualBG": 71, 
-      "timestamp": "2017-02-14T13:04:51.121Z", 
+      "eventualBG": 111, 
+      "timestamp": "2017-02-14T13:23:34.007Z", 
       "duration": 30, 
-      "tick": "+0", 
-      "IOB": 1.464
+      "tick": -1, 
+      "IOB": 0.583
     }
   }, 
   "mmtune": {
@@ -102,9 +101,9 @@
       [
         null, 
         0, 
-        -72.2
+        -77.6
       ]
     ], 
-    "timestamp": "2017-02-14T13:10:32.133Z"
+    "timestamp": "2017-02-14T13:23:41.867Z"
   }
 }
