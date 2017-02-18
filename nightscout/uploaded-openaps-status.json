@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-02-18T10:14:50.036Z", 
+    "created_at": "2017-02-18T10:42:15.834Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -86
+          -83.8
         ]
       ], 
-      "timestamp": "2017-02-18T10:14:35.909Z"
+      "timestamp": "2017-02-18T10:42:01.486Z"
     }, 
     "pump": {
       "battery": {
@@ -18,88 +18,84 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-02-18T10:09:36.815Z", 
+        "timestamp": "2017-02-18T10:36:32.723Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 98.35, 
-      "clock": "2017-02-18T02:09:59-08:00"
+      "reservoir": 98.05, 
+      "clock": "2017-02-18T02:36:55-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 82, 
+        "bg": 98, 
         "temp": "absolute", 
-        "snoozeBG": 136, 
-        "timestamp": "2017-02-18T10:14:28.038Z", 
+        "snoozeBG": 138, 
+        "timestamp": "2017-02-18T10:40:34.955Z", 
+        "rate": 1.75, 
+        "reason": "COB: 0, Dev: -7, BGI: 4.58, ISF: 82, Target: 96; Eventual BG 138 >= 96, temp 0.675<1.75U/hr", 
+        "COB": 0, 
+        "eventualBG": 138, 
+        "duration": 30, 
+        "tick": "+5", 
+        "IOB": -0.577
+      }, 
+      "iob": {
+        "netbasalinsulin": -1.7, 
+        "timestamp": "2017-02-18T10:36:55.000Z", 
+        "activity": -0.0112, 
+        "basaliob": -0.577, 
+        "hightempinsulin": 0, 
+        "bolussnooze": 0, 
+        "iob": -0.577
+      }, 
+      "enacted": {
+        "bg": 98, 
+        "temp": "absolute", 
+        "snoozeBG": 138, 
+        "recieved": true, 
         "predBGs": {
           "IOB": [
-            82, 
-            84, 
-            87, 
-            90, 
-            93, 
-            97, 
-            100, 
-            103, 
-            106, 
-            110, 
-            113, 
-            116, 
+            98, 
+            101, 
+            105, 
+            108, 
+            111, 
+            114, 
+            117, 
             120, 
             123, 
-            125, 
+            126, 
             128, 
             130, 
             132, 
             134, 
             135, 
-            136, 
             137, 
             138, 
             139, 
             140, 
-            140, 
             141, 
             141, 
-            141, 
-            142
+            142, 
+            142, 
+            143
           ]
         }, 
-        "reason": "COB: 0, Dev: -15, BGI: 4.74, ISF: 82, Target: 96; Eventual BG 136 > 96 but Min. Delta 2.28 < Exp. Delta 2.5, temp 0.75 ~ req 0.75U/hr", 
+        "reason": "COB: 0, Dev: -7, BGI: 4.58, ISF: 82, Target: 96; Eventual BG 138 >= 96, temp 0.675<1.75U/hr", 
+        "rate": 1.75, 
         "COB": 0, 
-        "eventualBG": 136, 
-        "tick": "+4", 
-        "IOB": -0.844
-      }, 
-      "iob": {
-        "netbasalinsulin": -1.1, 
-        "timestamp": "2017-02-18T10:09:59.000Z", 
-        "activity": -0.0116, 
-        "basaliob": -0.844, 
-        "hightempinsulin": 0.6, 
-        "bolussnooze": 0, 
-        "iob": -0.844
-      }, 
-      "enacted": {
-        "bg": 74, 
-        "temp": "absolute", 
-        "snoozeBG": 137, 
-        "recieved": true, 
-        "reason": "COB: 0, Dev: -17, BGI: 4.38, ISF: 82, Target: 96; Eventual BG 137 > 96 but Min. Delta 1.52 < Exp. Delta 2.1; setting current basal of 0.75 as temp", 
-        "rate": 0.75, 
-        "COB": 0, 
-        "eventualBG": 137, 
-        "timestamp": "2017-02-18T10:04:04.322Z", 
+        "eventualBG": 138, 
+        "timestamp": "2017-02-18T10:41:53.576Z", 
         "duration": 30, 
-        "tick": "+2", 
-        "IOB": -0.972
+        "tick": "+5", 
+        "IOB": -0.577
       }
     }, 
     "uploader": {
-      "battery": 70, 
-      "batteryVoltage": 3882
+      "battery": 69, 
+      "batteryVoltage": 3868
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "58a81e9a70bfdb4d692ea8d1"
+    "_id": "58a8250770bfdb4d692ea8de"
   }
 ]
