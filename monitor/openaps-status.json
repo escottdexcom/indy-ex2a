@@ -7,62 +7,36 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-19T03:12:22.528Z", 
+      "timestamp": "2017-02-19T03:28:31.720Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 80.45, 
-    "clock": "2017-02-18T19:12:45-08:00"
+    "reservoir": 80.3, 
+    "clock": "2017-02-18T19:28:54-08:00"
   }, 
   "uploader": {
-    "battery": 66, 
-    "batteryVoltage": 3842
+    "battery": 67, 
+    "batteryVoltage": 3846
   }, 
   "openaps": {
     "suggested": {
-      "bg": 123, 
-      "temp": "absolute", 
-      "snoozeBG": 49, 
-      "timestamp": "2017-02-19T03:16:19.751Z", 
-      "reason": "COB: 0, Dev: -35, BGI: -3.25, ISF: 93, Target: 80; Eventual BG 49 < 80, setting -0.65U/hr", 
-      "rate": 0, 
-      "COB": 0, 
-      "eventualBG": 49, 
-      "duration": 30, 
-      "tick": -16, 
-      "IOB": 0.415
+      "timestamp": "2017-02-19T03:31:24.312Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Feb 18 2017 19:17:41 GMT-0800 (PST) but your system time is Sat Feb 18 2017 19:31:24 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": 1.6, 
-      "timestamp": "2017-02-19T03:12:45.000Z", 
-      "activity": 0.007, 
-      "basaliob": 0.415, 
-      "hightempinsulin": 1.75, 
+      "netbasalinsulin": 1.15, 
+      "timestamp": "2017-02-19T03:28:54.000Z", 
+      "activity": 0.0059, 
+      "basaliob": 0.313, 
+      "hightempinsulin": 1.35, 
       "bolussnooze": 0, 
-      "iob": 0.415
+      "iob": 0.313
     }, 
     "enacted": {
       "bg": 123, 
       "temp": "absolute", 
       "snoozeBG": 49, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          123, 
-          108, 
-          94, 
-          82, 
-          71, 
-          61, 
-          52, 
-          44, 
-          39, 
-          39, 
-          39, 
-          39, 
-          39
-        ]
-      }, 
       "rate": 0, 
       "reason": "COB: 0, Dev: -35, BGI: -3.25, ISF: 93, Target: 80; Eventual BG 49 < 80, setting -0.65U/hr", 
       "COB": 0, 
@@ -78,9 +52,9 @@
       [
         null, 
         0, 
-        -82.8
+        -70.8
       ]
     ], 
-    "timestamp": "2017-02-19T03:17:28.812Z"
+    "timestamp": "2017-02-19T03:31:32.172Z"
   }
 }
