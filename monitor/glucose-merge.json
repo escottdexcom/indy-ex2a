@@ -1,6 +1,40 @@
 [
   {
     "trend_arrow": "45_UP", 
+    "display_time": "2017-02-19T15:51:49-08:00", 
+    "noise": 1, 
+    "system_time": "2017-02-19T23:36:40-08:00", 
+    "direction": "FortyFiveUp", 
+    "sgv": 163, 
+    "dateString": "2017-02-19T15:51:49-08:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 171104, 
+    "rssi": 441, 
+    "date": 1487548309000, 
+    "filtered": 159936, 
+    "_id": "58aa2fcd65110bbfc1958fcd", 
+    "type": "sgv", 
+    "glucose": 163
+  }, 
+  {
+    "trend_arrow": "45_UP", 
+    "display_time": "2017-02-19T15:41:48-08:00", 
+    "noise": 1, 
+    "system_time": "2017-02-19T23:26:40-08:00", 
+    "direction": "FortyFiveUp", 
+    "sgv": 148, 
+    "dateString": "2017-02-19T15:41:48-08:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 156320, 
+    "rssi": 176, 
+    "date": 1487547708000, 
+    "filtered": 146816, 
+    "_id": "58aa2f2765110bbfc1958fcc", 
+    "type": "sgv", 
+    "glucose": 148
+  }, 
+  {
+    "trend_arrow": "45_UP", 
     "display_time": "2017-02-19T15:41:48-08:00", 
     "noise": 1, 
     "system_time": "2017-02-19T22:32:32-08:00", 
@@ -24,11 +58,11 @@
     "direction": "FortyFiveUp", 
     "sgv": 142, 
     "dateString": "2017-02-19T15:36:49-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 150528, 
-    "rssi": 440, 
     "date": 1487547409000, 
+    "unfiltered": 150528, 
     "filtered": 140128, 
+    "device": "openaps://indy-e1/cgm", 
+    "rssi": 440, 
     "_id": "58aa2c8965110bbfc1958fc7", 
     "type": "sgv", 
     "glucose": 142
@@ -1873,22 +1907,5 @@
     "_id": "58a9dd3765110bbfc1958f34", 
     "type": "sgv", 
     "glucose": 73
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2017-02-19T09:52:39-08:00", 
-    "noise": 1, 
-    "system_time": "2017-02-19T17:51:48-08:00", 
-    "direction": "Flat", 
-    "sgv": 69, 
-    "dateString": "2017-02-19T09:52:39-08:00", 
-    "date": 1487526759000, 
-    "unfiltered": 85184, 
-    "filtered": 83488, 
-    "device": "openaps://indy-e1/cgm", 
-    "rssi": 196, 
-    "_id": "58a9dc3065110bbfc1958f32", 
-    "type": "sgv", 
-    "glucose": 69
   }
 ]
