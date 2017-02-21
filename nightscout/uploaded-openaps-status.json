@@ -1,109 +1,99 @@
 [
   {
-    "created_at": "2017-02-21T15:48:42.641Z", 
+    "created_at": "2017-02-21T16:25:34.663Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -79
+          -83.8
         ]
       ], 
-      "timestamp": "2017-02-21T15:48:28.578Z"
+      "timestamp": "2017-02-21T16:25:20.622Z"
     }, 
     "pump": {
       "battery": {
         "status": "normal", 
-        "voltage": 1.58
+        "voltage": 1.57
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-02-21T15:44:36.625Z", 
+        "timestamp": "2017-02-21T16:22:13.840Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 79.225, 
-      "clock": "2017-02-21T07:45:00-08:00"
+      "reservoir": 78.8, 
+      "clock": "2017-02-21T08:22:35-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 130, 
+        "bg": 116, 
         "temp": "absolute", 
-        "snoozeBG": 119, 
-        "timestamp": "2017-02-21T15:48:20.618Z", 
+        "snoozeBG": 51, 
+        "timestamp": "2017-02-21T16:25:12.742Z", 
         "predBGs": {
           "IOB": [
-            130, 
-            133, 
-            135, 
-            137, 
-            139, 
-            140, 
-            141, 
-            142, 
-            141, 
-            141, 
-            140, 
-            138, 
-            136, 
-            134, 
-            132, 
-            130, 
-            128, 
-            126, 
-            123, 
-            121, 
-            119, 
-            117, 
-            115, 
-            113, 
-            111, 
-            110, 
-            108, 
-            107, 
-            106, 
-            105, 
-            104, 
+            116, 
+            109, 
             103, 
-            103, 
-            102
+            97, 
+            92, 
+            87, 
+            82, 
+            78, 
+            74, 
+            71, 
+            69, 
+            67, 
+            66, 
+            65, 
+            64, 
+            63, 
+            63, 
+            62, 
+            62, 
+            62, 
+            62, 
+            62, 
+            62, 
+            63, 
+            63, 
+            63, 
+            64, 
+            64, 
+            65, 
+            65, 
+            66, 
+            66, 
+            67, 
+            67, 
+            67, 
+            67, 
+            67, 
+            68
           ]
         }, 
-        "reason": "COB: 0, Dev: 15, BGI: 0.43, ISF: 86, Target: 98; Eventual BG 119 >= 98, temp 1.425 >~ req 1.15U/hr", 
+        "reason": "COB: 0, Dev: -33, BGI: -1.11, ISF: 86, Target: 98; Eventual BG 51 < 98, setting -1.55U/hr, but 21m left and 0 ~ req 0U/hr: no action required", 
         "COB": 0, 
-        "eventualBG": 119, 
-        "tick": "+3", 
-        "IOB": 0.302
+        "eventualBG": 51, 
+        "tick": -7, 
+        "IOB": 0.373
       }, 
       "iob": {
-        "netbasalinsulin": 0.3, 
-        "timestamp": "2017-02-21T15:45:00.000Z", 
-        "activity": -0.001, 
-        "basaliob": 0.302, 
-        "hightempinsulin": 0.85, 
+        "netbasalinsulin": 0.45, 
+        "timestamp": "2017-02-21T16:22:35.000Z", 
+        "activity": 0.0026, 
+        "basaliob": 0.373, 
+        "hightempinsulin": 1, 
         "bolussnooze": 0, 
-        "iob": 0.302
-      }, 
-      "enacted": {
-        "bg": 87, 
-        "temp": "absolute", 
-        "snoozeBG": 102, 
-        "recieved": true, 
-        "reason": "COB: 0, Dev: -4, BGI: -0.13, ISF: 84, Target: 97; Eventual BG 102 > 97 but Min. Delta -0.88 < Exp. Delta -0.4; setting current basal of 0.6 as temp", 
-        "rate": 0.6, 
-        "COB": 0, 
-        "eventualBG": 102, 
-        "timestamp": "2017-02-21T14:58:30.008Z", 
-        "duration": 30, 
-        "tick": "+1", 
-        "IOB": -0.23
+        "iob": 0.373
       }
     }, 
     "uploader": {
-      "battery": 68, 
-      "batteryVoltage": 3864
+      "battery": 93, 
+      "batteryVoltage": 4115
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "58ac615ab4cb346a50fcb03d"
+    "_id": "58ac69feb4cb346a50fcb043"
   }
 ]
