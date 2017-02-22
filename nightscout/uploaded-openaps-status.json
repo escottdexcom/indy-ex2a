@@ -1,0 +1,64 @@
+[
+  {
+    "created_at": "2017-02-22T17:52:16.532Z", 
+    "mmtune": {
+      "scanDetails": [
+        [
+          null, 
+          0, 
+          -61
+        ]
+      ], 
+      "timestamp": "2017-02-22T17:52:02.714Z"
+    }, 
+    "pump": {
+      "battery": {
+        "status": "normal", 
+        "voltage": 1.55
+      }, 
+      "status": {
+        "status": "normal", 
+        "timestamp": "2017-02-22T17:48:29.752Z", 
+        "bolusing": false, 
+        "suspended": false
+      }, 
+      "reservoir": 46.575, 
+      "clock": "2017-02-22T09:48:54-08:00"
+    }, 
+    "openaps": {
+      "suggested": {
+        "timestamp": "2017-02-22T17:51:54.384Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Wed Feb 22 2017 09:41:38 GMT-0800 (PST) but your system time is Wed Feb 22 2017 09:51:54 GMT-0800 (PST)"
+      }, 
+      "iob": {
+        "netbasalinsulin": -0.5, 
+        "timestamp": "2017-02-22T17:48:54.000Z", 
+        "activity": -0.002, 
+        "basaliob": -0.1, 
+        "hightempinsulin": 0.15, 
+        "bolussnooze": 1.272, 
+        "iob": 1.191
+      }, 
+      "enacted": {
+        "bg": 75, 
+        "temp": "absolute", 
+        "snoozeBG": 100, 
+        "recieved": true, 
+        "reason": "COB: 0, Dev: -12, BGI: 1.64, ISF: 82, Target: 96; Eventual BG 100 > 96 but Min. Delta -0.41 < Exp. Delta 1.4; setting current basal of 0.7 as temp", 
+        "rate": 0.7, 
+        "COB": 0, 
+        "eventualBG": 100, 
+        "timestamp": "2017-02-22T16:50:32.490Z", 
+        "duration": 30, 
+        "tick": "+1", 
+        "IOB": -0.458
+      }
+    }, 
+    "uploader": {
+      "battery": 92, 
+      "batteryVoltage": 4101
+    }, 
+    "device": "openaps://indy-ex2", 
+    "_id": "58adcfd0b4cb346a50fcb20b"
+  }
+]
