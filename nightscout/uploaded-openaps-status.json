@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-02-27T09:39:27.477Z", 
+    "created_at": "2017-02-27T09:52:01.357Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -74.8
+          -76.2
         ]
       ], 
-      "timestamp": "2017-02-27T09:39:13.459Z"
+      "timestamp": "2017-02-27T09:51:46.898Z"
     }, 
     "pump": {
       "battery": {
@@ -18,92 +18,93 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-02-27T09:34:31.555Z", 
+        "timestamp": "2017-02-27T09:45:57.004Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 140.15, 
-      "clock": "2017-02-27T01:34:58-08:00"
+      "reservoir": 139.925, 
+      "clock": "2017-02-27T01:46:22-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 101, 
+        "bg": 102, 
         "temp": "absolute", 
-        "snoozeBG": 121, 
-        "timestamp": "2017-02-27T09:38:23.368Z", 
-        "rate": 1.2, 
-        "reason": "COB: 0, Dev: -2, BGI: -0.76, ISF: 90, Target: 100; Eventual BG 121 >= 100, temp 0.975<1.2U/hr", 
+        "snoozeBG": 122, 
+        "timestamp": "2017-02-27T09:49:28.956Z", 
+        "rate": 1.45, 
+        "reason": "COB: 0, Dev: 2, BGI: -0.22, ISF: 90, Target: 100; Eventual BG 122 >= 100, temp 1.2<1.45U/hr", 
         "COB": 0, 
-        "eventualBG": 121, 
+        "eventualBG": 122, 
         "duration": 30, 
         "tick": "+1", 
-        "IOB": -0.244
+        "IOB": -0.203
       }, 
       "iob": {
-        "netbasalinsulin": 0.45, 
-        "timestamp": "2017-02-27T09:34:58.000Z", 
-        "activity": 0.0017, 
-        "basaliob": -0.244, 
-        "hightempinsulin": 0.85, 
+        "netbasalinsulin": 0.3, 
+        "timestamp": "2017-02-27T09:46:22.000Z", 
+        "activity": 0.0005, 
+        "basaliob": -0.203, 
+        "hightempinsulin": 0.7, 
         "bolussnooze": 0, 
-        "iob": -0.244
+        "iob": -0.203
       }, 
       "enacted": {
-        "bg": 101, 
+        "bg": 102, 
         "temp": "absolute", 
-        "snoozeBG": 121, 
+        "snoozeBG": 122, 
         "recieved": true, 
         "predBGs": {
           "IOB": [
-            101, 
-            100, 
-            99, 
-            99, 
-            98, 
-            99, 
-            99, 
-            99, 
-            100, 
-            101, 
+            102, 
+            102, 
+            102, 
+            103, 
             103, 
             104, 
             105, 
+            106, 
             107, 
-            108, 
+            109, 
             110, 
+            111, 
             111, 
             112, 
             113, 
+            113, 
+            114, 
+            114, 
+            114, 
             114, 
             115, 
-            116, 
-            117, 
-            118, 
-            118, 
-            119, 
-            119, 
-            120, 
-            120, 
-            120, 
-            120, 
-            121
+            115, 
+            115, 
+            115, 
+            115, 
+            115, 
+            115, 
+            114, 
+            114, 
+            114, 
+            114, 
+            114, 
+            113
           ]
         }, 
-        "reason": "COB: 0, Dev: -2, BGI: -0.76, ISF: 90, Target: 100; Eventual BG 121 >= 100, temp 0.975<1.2U/hr", 
-        "rate": 1.2, 
+        "reason": "COB: 0, Dev: 2, BGI: -0.22, ISF: 90, Target: 100; Eventual BG 122 >= 100, temp 1.2<1.45U/hr", 
+        "rate": 1.45, 
         "COB": 0, 
-        "eventualBG": 121, 
-        "timestamp": "2017-02-27T09:39:05.628Z", 
+        "eventualBG": 122, 
+        "timestamp": "2017-02-27T09:51:39.028Z", 
         "duration": 30, 
         "tick": "+1", 
-        "IOB": -0.244
+        "IOB": -0.203
       }
     }, 
     "uploader": {
-      "battery": 69, 
-      "batteryVoltage": 3869
+      "battery": 68, 
+      "batteryVoltage": 3860
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "58b3f3cf80170ce642123081"
+    "_id": "58b3f6c180170ce642123086"
   }
 ]
