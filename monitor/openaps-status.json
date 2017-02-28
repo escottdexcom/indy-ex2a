@@ -7,110 +7,36 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-28T00:27:33.015Z", 
+      "timestamp": "2017-02-28T00:48:48.878Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 123.775, 
-    "clock": "2017-02-27T16:27:59-08:00"
+    "reservoir": 123.05, 
+    "clock": "2017-02-27T16:48:06-08:00"
   }, 
   "uploader": {
-    "battery": 86, 
-    "batteryVoltage": 4039
+    "battery": 83, 
+    "batteryVoltage": 4011
   }, 
   "openaps": {
     "suggested": {
-      "bg": 91, 
-      "temp": "absolute", 
-      "snoozeBG": 109, 
-      "timestamp": "2017-02-28T00:30:17.767Z", 
-      "reason": "COB: 11, Dev: -8, BGI: 0.87, ISF: 83, Target: 97; Eventual BG 109 > 97 but Min. Delta -0.39 < Exp. Delta 0.2; setting current basal of 0.65 as temp", 
-      "rate": 0.65, 
-      "COB": 11, 
-      "eventualBG": 109, 
-      "duration": 30, 
-      "tick": "+4", 
-      "IOB": -0.311
+      "timestamp": "2017-02-28T00:51:40.640Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Mon Feb 27 2017 16:41:17 GMT-0800 (PST) but your system time is Mon Feb 27 2017 16:51:40 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": -0.1, 
-      "timestamp": "2017-02-28T00:27:59.000Z", 
-      "activity": -0.0021, 
-      "basaliob": -0.311, 
-      "hightempinsulin": 0.45, 
-      "bolussnooze": 0, 
-      "iob": -0.311
+      "netbasalinsulin": -0.2, 
+      "timestamp": "2017-02-28T00:48:06.000Z", 
+      "activity": -0.0022, 
+      "basaliob": -0.21, 
+      "hightempinsulin": 0.3, 
+      "bolussnooze": 0.488, 
+      "iob": 0.287
     }, 
     "enacted": {
       "bg": 91, 
       "temp": "absolute", 
       "snoozeBG": 109, 
       "recieved": true, 
-      "predBGs": {
-        "aCOB": [
-          91, 
-          100, 
-          109, 
-          117, 
-          126, 
-          133, 
-          141, 
-          148, 
-          155, 
-          161, 
-          167, 
-          172, 
-          178, 
-          182, 
-          186, 
-          189, 
-          192, 
-          194, 
-          195, 
-          196, 
-          197, 
-          197, 
-          198, 
-          198, 
-          199, 
-          199, 
-          200, 
-          200, 
-          200, 
-          200, 
-          201
-        ], 
-        "IOB": [
-          91, 
-          91, 
-          91, 
-          91, 
-          91, 
-          91, 
-          92, 
-          93, 
-          94, 
-          95, 
-          96, 
-          97, 
-          98, 
-          100, 
-          101, 
-          102, 
-          103, 
-          104, 
-          105, 
-          106, 
-          106, 
-          107, 
-          107, 
-          108, 
-          108, 
-          109, 
-          109, 
-          110
-        ]
-      }, 
       "rate": 0.65, 
       "reason": "COB: 11, Dev: -8, BGI: 0.87, ISF: 83, Target: 97; Eventual BG 109 > 97 but Min. Delta -0.39 < Exp. Delta 0.2; setting current basal of 0.65 as temp", 
       "COB": 11, 
@@ -126,9 +52,9 @@
       [
         null, 
         0, 
-        -56
+        -58.8
       ]
     ], 
-    "timestamp": "2017-02-28T00:32:41.548Z"
+    "timestamp": "2017-02-28T00:51:48.490Z"
   }
 }
