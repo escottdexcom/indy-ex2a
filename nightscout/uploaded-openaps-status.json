@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-02-28T10:39:02.225Z", 
+    "created_at": "2017-02-28T10:57:29.028Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -77.2
+          -78.8
         ]
       ], 
-      "timestamp": "2017-02-28T10:38:47.230Z"
+      "timestamp": "2017-02-28T10:57:15.179Z"
     }, 
     "pump": {
       "battery": {
@@ -18,77 +18,90 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-02-28T10:35:22.278Z", 
+        "timestamp": "2017-02-28T10:51:34.346Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 105.2, 
-      "clock": "2017-02-28T02:35:43-08:00"
+      "reservoir": 104.95, 
+      "clock": "2017-02-28T02:52:01-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 139, 
+        "bg": 147, 
         "temp": "absolute", 
-        "snoozeBG": 100, 
-        "timestamp": "2017-02-28T10:38:38.830Z", 
-        "predBGs": {
-          "IOB": [
-            139, 
-            134, 
-            130, 
-            125, 
-            121, 
-            117, 
-            113, 
-            110, 
-            107, 
-            104, 
-            101, 
-            98, 
-            96, 
-            94, 
-            92, 
-            90, 
-            88, 
-            87, 
-            85, 
-            84, 
-            82, 
-            81, 
-            80, 
-            79, 
-            78, 
-            78, 
-            77, 
-            77, 
-            76, 
-            76, 
-            76, 
-            76, 
-            75
-          ]
-        }, 
-        "reason": "COB: 0, Dev: 1, BGI: -2.74, ISF: 82, Target: 96; Eventual BG 100 > 96 but Min. Delta -5.00 < Exp. Delta -3; setting current basal of 0.825 as temp, but 29m left and 0.925 ~ req 0.825U/hr: no action required", 
+        "snoozeBG": 130, 
+        "timestamp": "2017-02-28T10:54:41.648Z", 
+        "rate": 1.65, 
+        "reason": "COB: 0, Dev: 23, BGI: -2.58, ISF: 82, Target: 96; Eventual BG 130 >= 96, temp 0.8<1.65U/hr", 
         "COB": 0, 
-        "eventualBG": 100, 
-        "tick": -5, 
-        "IOB": 0.495
+        "eventualBG": 130, 
+        "duration": 30, 
+        "tick": "+8", 
+        "IOB": 0.491
       }, 
       "iob": {
-        "netbasalinsulin": 1.2, 
-        "timestamp": "2017-02-28T10:35:43.000Z", 
-        "activity": 0.0067, 
-        "basaliob": 0.478, 
-        "hightempinsulin": 1.6, 
+        "netbasalinsulin": 1.05, 
+        "timestamp": "2017-02-28T10:52:01.000Z", 
+        "activity": 0.0063, 
+        "basaliob": 0.486, 
+        "hightempinsulin": 1.45, 
         "bolussnooze": 0, 
-        "iob": 0.495
+        "iob": 0.491
+      }, 
+      "enacted": {
+        "bg": 147, 
+        "temp": "absolute", 
+        "snoozeBG": 130, 
+        "recieved": true, 
+        "predBGs": {
+          "IOB": [
+            147, 
+            148, 
+            149, 
+            149, 
+            149, 
+            149, 
+            149, 
+            148, 
+            147, 
+            146, 
+            145, 
+            143, 
+            141, 
+            139, 
+            138, 
+            136, 
+            135, 
+            133, 
+            132, 
+            131, 
+            130, 
+            129, 
+            129, 
+            128, 
+            128, 
+            127, 
+            127, 
+            127, 
+            127, 
+            126
+          ]
+        }, 
+        "reason": "COB: 0, Dev: 23, BGI: -2.58, ISF: 82, Target: 96; Eventual BG 130 >= 96, temp 0.8<1.65U/hr", 
+        "rate": 1.65, 
+        "COB": 0, 
+        "eventualBG": 130, 
+        "timestamp": "2017-02-28T10:57:07.359Z", 
+        "duration": 30, 
+        "tick": "+8", 
+        "IOB": 0.491
       }
     }, 
     "uploader": {
-      "battery": 67, 
-      "batteryVoltage": 3850
+      "battery": 70, 
+      "batteryVoltage": 3878
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "58b55346233dd6771ba896d7"
+    "_id": "58b55799233dd6771ba896df"
   }
 ]
