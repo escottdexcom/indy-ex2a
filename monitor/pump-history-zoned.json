@@ -1,5 +1,37 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2017-03-01T15:02:05 head[8], body[0] op[0x01]", 
+    "timestamp": "2017-03-01T15:02:05-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c0850c3c01c27d0", 
+        "data": [
+          {
+            "amount": 2.0, 
+            "age": 195
+          }, 
+          {
+            "amount": 0.7, 
+            "age": 295
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.2, 
+    "duration": 0, 
+    "amount": 1.2, 
+    "unabsorbed": 0.0, 
+    "_head": "0100300030000000", 
+    "type": "normal", 
+    "_date": "05c22f0111"
+  }, 
+  {
     "_type": "BolusWizard", 
     "bg": 0, 
     "_description": "BolusWizard 2017-03-01T15:02:05 head[2], body[15] op[0x5b]", 
@@ -19,23 +51,6 @@
           {
             "amount": 0.7, 
             "age": 294
-          }
-        ], 
-        "_date": ""
-      }, 
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
-        "_body": "", 
-        "_head": "5c0850c3c01c27d0", 
-        "data": [
-          {
-            "amount": 2.0, 
-            "age": 195
-          }, 
-          {
-            "amount": 0.7, 
-            "age": 295
           }
         ], 
         "_date": ""
