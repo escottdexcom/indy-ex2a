@@ -3,6 +3,35 @@
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
+      "_description": "TempBasal 2017-03-02T21:05:07 head[2], body[1] op[0x33]", 
+      "timestamp": "2017-03-02T21:05:07-08:00", 
+      "_body": "00", 
+      "_head": "3300", 
+      "rate": 0, 
+      "_date": "07c5154211"
+    }, 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2017-03-02T21:05:07 head[2], body[0] op[0x16]", 
+      "timestamp": "2017-03-02T21:05:07-08:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "07c5154211"
+    }, 
+    "created_at": "2017-03-02T21:05:07-08:00", 
+    "enteredBy": "openaps://medtronic/723", 
+    "rate": 0, 
+    "eventType": "Temp Basal", 
+    "timestamp": "2017-03-02T21:05:07-08:00", 
+    "duration": "30", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": "0"
+  }, 
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
       "_description": "TempBasal 2017-03-02T20:45:23 head[2], body[1] op[0x33]", 
       "timestamp": "2017-03-02T20:45:23-08:00", 
       "_body": "00", 
@@ -1046,102 +1075,5 @@
     "duration": "30", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
     "absolute": "0.625"
-  }, 
-  {
-    "_type": "Battery", 
-    "_description": "Battery 2017-03-02T15:05:02 head[2], body[0] op[0x1a]", 
-    "notes": "Battery 723 ", 
-    "timestamp": "2017-03-02T15:05:02-08:00", 
-    "_body": "", 
-    "_head": "1a01", 
-    "enteredBy": "openaps://medtronic/723", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Battery", 
-    "eventType": "Note", 
-    "created_at": "2017-03-02T15:05:02-08:00", 
-    "_date": "02c50f0211"
-  }, 
-  {
-    "_type": "Battery", 
-    "_description": "Battery 2017-03-02T15:04:35 head[2], body[0] op[0x1a]", 
-    "notes": "Battery 723 ", 
-    "timestamp": "2017-03-02T15:04:35-08:00", 
-    "_body": "", 
-    "_head": "1a00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Battery", 
-    "eventType": "Note", 
-    "created_at": "2017-03-02T15:04:35-08:00", 
-    "_date": "23c40f0211"
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2017-03-02T15:02:44 head[2], body[1] op[0x33]", 
-      "timestamp": "2017-03-02T15:02:44-08:00", 
-      "_body": "00", 
-      "_head": "3319", 
-      "rate": 0.625, 
-      "_date": "2cc20f4211"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2017-03-02T15:02:44 head[2], body[0] op[0x16]", 
-      "timestamp": "2017-03-02T15:02:44-08:00", 
-      "_body": "", 
-      "_head": "1601", 
-      "duration (min)": 30, 
-      "_date": "2cc20f4211"
-    }, 
-    "created_at": "2017-03-02T15:02:44-08:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "rate": 0.625, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2017-03-02T15:02:44-08:00", 
-    "duration": "30", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "0.625"
-  }, 
-  {
-    "_type": "Prime", 
-    "_description": "Prime 2017-03-02T14:59:09 head[5], body[0] op[0x03]", 
-    "notes": "Prime 723 ", 
-    "timestamp": "2017-03-02T14:59:09-08:00", 
-    "_body": "", 
-    "_head": "0300000018", 
-    "enteredBy": "openaps://medtronic/723", 
-    "amount": 2.4, 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime", 
-    "eventType": "Note", 
-    "fixed": 0, 
-    "type": "manual", 
-    "created_at": "2017-03-02T14:59:09-08:00", 
-    "_date": "09fb2e0211"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2017-03-02T14:54:16 head[2], body[0] op[0x21]", 
-    "notes": "Rewind 723 ", 
-    "timestamp": "2017-03-02T14:54:16-08:00", 
-    "_body": "", 
-    "_head": "2100", 
-    "enteredBy": "openaps://medtronic/723", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Rewind", 
-    "eventType": "Note", 
-    "created_at": "2017-03-02T14:54:16-08:00", 
-    "_date": "10f60e0211"
-  }, 
-  {
-    "_type": "ClearAlarm", 
-    "_description": "ClearAlarm 2017-03-02T14:51:24 head[2], body[0] op[0x0c]", 
-    "notes": "ClearAlarm 723 ", 
-    "timestamp": "2017-03-02T14:51:24-08:00", 
-    "_body": "", 
-    "_head": "0c2b", 
-    "enteredBy": "openaps://medtronic/723", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/ClearAlarm", 
-    "eventType": "Note", 
-    "created_at": "2017-03-02T14:51:24-08:00", 
-    "_date": "18f30e0211"
   }
 ]
