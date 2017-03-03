@@ -1,5 +1,43 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2017-03-02T20:24:19 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-03-02T20:24:19", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "13d8144211"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-03-02T20:24:19 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-03-02T20:24:19", 
+    "_body": "00", 
+    "_head": "3328", 
+    "rate": 1.0, 
+    "_date": "13d8144211"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2017-03-02T20:23:29 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-03-02T20:23:29", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "1dd7144211"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-03-02T20:23:29 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-03-02T20:23:29", 
+    "_body": "00", 
+    "_head": "3328", 
+    "rate": 1.0, 
+    "_date": "1dd7144211"
+  }, 
+  {
     "programmed": 2.35, 
     "_type": "Bolus", 
     "_description": "Bolus 2017-03-02T20:18:30 head[8], body[0] op[0x01]", 
@@ -718,13 +756,5 @@
     "_body": "", 
     "_head": "0c2b", 
     "_date": "18f30e0211"
-  }, 
-  {
-    "_type": "AlarmPump", 
-    "_description": "AlarmPump 2017-03-02T14:18:38 head[4], body[0] op[0x06]", 
-    "timestamp": "2017-03-02T14:18:38", 
-    "_body": "", 
-    "_head": "062b034c", 
-    "_date": "26d24e4211"
   }
 ]
