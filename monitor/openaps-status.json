@@ -7,60 +7,76 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-03-04T03:07:48.369Z", 
+      "timestamp": "2017-03-04T03:17:31.144Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 107.15, 
-    "clock": "2017-03-03T19:08:14-08:00"
+    "reservoir": 107.025, 
+    "clock": "2017-03-03T19:17:58-08:00"
   }, 
   "uploader": {
-    "battery": 78, 
-    "batteryVoltage": 3959
+    "battery": 76, 
+    "batteryVoltage": 3941
   }, 
   "openaps": {
     "suggested": {
-      "bg": 103, 
+      "bg": 105, 
       "temp": "absolute", 
-      "snoozeBG": 102, 
-      "timestamp": "2017-03-04T03:11:38.851Z", 
+      "snoozeBG": 104, 
+      "timestamp": "2017-03-04T03:20:58.816Z", 
       "predBGs": {
         "IOB": [
+          105, 
+          105, 
+          105, 
+          105, 
+          105, 
+          105, 
+          105, 
+          105, 
+          105, 
+          105, 
+          105, 
+          104, 
+          104, 
+          104, 
+          104, 
+          103, 
+          103, 
           103, 
           102, 
           102, 
+          102, 
+          101, 
+          101, 
           101, 
           101, 
           101, 
           100, 
           100, 
           100, 
-          99, 
-          99, 
-          99, 
-          99, 
-          99, 
-          99, 
-          99, 
-          99, 
-          99, 
-          98
+          100, 
+          100, 
+          100, 
+          100, 
+          100, 
+          99
         ]
       }, 
-      "reason": "COB: 0, Dev: -1, BGI: -0.45, ISF: 82, Target: 96; Eventual BG 102 >= 96, temp 0.775<0.8U/hr, but 28m left and 0.775 ~ req 0.8U/hr: no action required", 
+      "reason": "COB: 0, Dev: 2, BGI: -0.25, ISF: 82, Target: 96; Eventual BG 104 >= 96, temp 1 >~ req 0.975U/hr", 
       "COB": 0, 
-      "eventualBG": 102, 
+      "eventualBG": 104, 
       "tick": "+0", 
-      "IOB": -0.006
+      "IOB": 0.037
     }, 
     "iob": {
-      "netbasalinsulin": 0.7, 
-      "timestamp": "2017-03-04T03:08:14.000Z", 
-      "activity": 0.0011, 
-      "basaliob": -0.006, 
-      "hightempinsulin": 1.1, 
+      "netbasalinsulin": 0.55, 
+      "timestamp": "2017-03-04T03:17:58.000Z", 
+      "activity": 0.0006, 
+      "basaliob": 0.037, 
+      "hightempinsulin": 0.95, 
       "bolussnooze": 0, 
-      "iob": -0.006
+      "iob": 0.037
     }
   }, 
   "mmtune": {
@@ -68,9 +84,9 @@
       [
         null, 
         0, 
-        -76
+        -58.2
       ]
     ], 
-    "timestamp": "2017-03-04T03:11:46.741Z"
+    "timestamp": "2017-03-04T03:21:07.246Z"
   }
 }
