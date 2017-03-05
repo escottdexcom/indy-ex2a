@@ -3,95 +3,98 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.54
+      "voltage": 1.53
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-03-05T14:53:49.186Z", 
+      "timestamp": "2017-03-05T15:03:39.902Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 51.375, 
-    "clock": "2017-03-05T06:54:09-08:00"
+    "reservoir": 51.25, 
+    "clock": "2017-03-05T07:04:08-08:00"
   }, 
   "uploader": {
-    "battery": 68, 
-    "batteryVoltage": 3862
+    "battery": 69, 
+    "batteryVoltage": 3869
   }, 
   "openaps": {
     "suggested": {
-      "bg": 157, 
+      "bg": 163, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
-      "timestamp": "2017-03-05T14:57:26.808Z", 
-      "predBGs": {
-        "IOB": [
-          157, 
-          152, 
-          148, 
-          143, 
-          139, 
-          134, 
-          130, 
-          126, 
-          123, 
-          119, 
-          116, 
-          113, 
-          110, 
-          108, 
-          105, 
-          103, 
-          100, 
-          98, 
-          96, 
-          95, 
-          93, 
-          92, 
-          91, 
-          90, 
-          89, 
-          88, 
-          88, 
-          87, 
-          87, 
-          87, 
-          86
-        ]
-      }, 
-      "reason": "COB: 0, Dev: 1, BGI: -2.86, ISF: 82, Target: 96; Eventual BG 101 > 96 but Min. Delta -5.00 < Exp. Delta -3.1, temp 0.65 ~ req 0.65U/hr", 
+      "snoozeBG": 132, 
+      "timestamp": "2017-03-05T15:07:30.105Z", 
+      "reason": "COB: 0, Dev: 24, BGI: -2.99, ISF: 82, Target: 96; Eventual BG 132 >= 96, temp 1.05<1.6U/hr", 
+      "rate": 1.6, 
       "COB": 0, 
-      "eventualBG": 101, 
-      "tick": -5, 
-      "IOB": 0.692
+      "eventualBG": 132, 
+      "duration": 30, 
+      "tick": "+5", 
+      "IOB": 0.67
     }, 
     "iob": {
-      "netbasalinsulin": 1.5, 
-      "timestamp": "2017-03-05T14:54:09.000Z", 
-      "activity": 0.007, 
-      "basaliob": 0.692, 
-      "hightempinsulin": 1.6, 
+      "netbasalinsulin": 1.45, 
+      "timestamp": "2017-03-05T15:04:08.000Z", 
+      "activity": 0.0073, 
+      "basaliob": 0.67, 
+      "hightempinsulin": 1.55, 
       "bolussnooze": 0, 
-      "iob": 0.692
+      "iob": 0.67
     }, 
     "enacted": {
-      "requested": {
-        "duration": 30, 
-        "rate": 1.25, 
-        "temp": "absolute"
-      }, 
-      "bg": 155, 
+      "bg": 163, 
       "temp": "absolute", 
-      "snoozeBG": 120, 
-      "timestamp": "2017-03-05T14:38:54.178Z", 
-      "rate": 0.875, 
-      "reason": "COB: 0, Dev: 17, BGI: -2.49, ISF: 82, Target: 96; Eventual BG 120 >= 96, temp 0.5<1.25U/hr", 
+      "snoozeBG": 132, 
+      "recieved": true, 
+      "predBGs": {
+        "IOB": [
+          163, 
+          164, 
+          164, 
+          164, 
+          163, 
+          162, 
+          161, 
+          159, 
+          157, 
+          155, 
+          153, 
+          150, 
+          147, 
+          144, 
+          141, 
+          138, 
+          135, 
+          133, 
+          130, 
+          128, 
+          126, 
+          125, 
+          123, 
+          122, 
+          120, 
+          119, 
+          118, 
+          118, 
+          117, 
+          116, 
+          116, 
+          116, 
+          115, 
+          115, 
+          115, 
+          115, 
+          114
+        ]
+      }, 
+      "rate": 1.6, 
+      "reason": "COB: 0, Dev: 24, BGI: -2.99, ISF: 82, Target: 96; Eventual BG 132 >= 96, temp 1.05<1.6U/hr", 
       "COB": 0, 
-      "eventualBG": 120, 
-      "recieved": false, 
-      "duration": 28, 
-      "tick": "+2", 
-      "IOB": 0.633
+      "eventualBG": 132, 
+      "timestamp": "2017-03-05T15:07:59.065Z", 
+      "duration": 30, 
+      "tick": "+5", 
+      "IOB": 0.67
     }
   }, 
   "mmtune": {
@@ -99,9 +102,9 @@
       [
         null, 
         0, 
-        -83.4
+        -78.4
       ]
     ], 
-    "timestamp": "2017-03-05T14:57:34.618Z"
+    "timestamp": "2017-03-05T15:08:07.305Z"
   }
 }
