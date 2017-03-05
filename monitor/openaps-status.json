@@ -7,79 +7,73 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-03-05T12:39:23.654Z", 
+      "timestamp": "2017-03-05T12:50:45.381Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 53.475, 
-    "clock": "2017-03-05T04:39:52-08:00"
+    "reservoir": 53.325, 
+    "clock": "2017-03-05T04:51:11-08:00"
   }, 
   "uploader": {
     "battery": 69, 
-    "batteryVoltage": 3873
+    "batteryVoltage": 3868
   }, 
   "openaps": {
     "suggested": {
-      "bg": 165, 
+      "bg": 162, 
       "temp": "absolute", 
-      "snoozeBG": 111, 
-      "timestamp": "2017-03-05T12:43:34.917Z", 
+      "snoozeBG": 100, 
+      "timestamp": "2017-03-05T12:53:20.513Z", 
       "predBGs": {
         "IOB": [
-          165, 
-          165, 
-          164, 
-          163, 
           162, 
-          161, 
-          159, 
-          156, 
-          154, 
+          160, 
+          158, 
+          155, 
+          153, 
           150, 
           147, 
-          143, 
-          139, 
-          135, 
-          131, 
-          127, 
+          144, 
+          140, 
+          137, 
+          133, 
+          130, 
+          126, 
           123, 
           120, 
-          116, 
-          113, 
-          110, 
+          117, 
+          114, 
+          111, 
+          109, 
           107, 
-          104, 
-          102, 
+          105, 
+          103, 
+          101, 
           100, 
           98, 
+          97, 
           96, 
+          95, 
+          95, 
           94, 
-          93, 
-          92, 
-          91, 
-          90, 
-          89, 
-          88, 
-          88, 
-          88, 
-          88, 
-          87
+          94, 
+          93
         ]
       }, 
-      "reason": "COB: 0, Dev: 14, BGI: -2.41, ISF: 82, Target: 96; Eventual BG 111 >= 96, 25m@0.525 = 0.219 > req 0.18+20%. Setting temp basal of 1U/hr, but 25m left and 1.175 ~ req 1U/hr: no action required", 
+      "reason": "COB: 0, Dev: 4, BGI: -2.66, ISF: 82, Target: 96; Eventual BG 100 >= 96, 22m@0.150 = 0.055 > req 0.02+20%. Setting temp basal of 0.7U/hr, but 22m left and 0.8 ~ req 0.7U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 111, 
-      "tick": "+0", 
-      "IOB": 0.832
+      "eventualBG": 100, 
+      "tick": -2, 
+      "IOB": 0.81
     }, 
     "iob": {
-      "netbasalinsulin": 1.2, 
-      "timestamp": "2017-03-05T12:39:52.000Z", 
-      "activity": 0.0059, 
-      "basaliob": 0.832, 
+      "netbasalinsulin": 1.25, 
+      "timestamp": "2017-03-05T12:51:11.000Z", 
+      "activity": 0.0065, 
+      "basaliob": 0.81, 
       "hightempinsulin": 1.5, 
       "bolussnooze": 0, 
-      "iob": 0.832
+      "iob": 0.81
     }, 
     "enacted": {
       "bg": 148, 
@@ -101,9 +95,9 @@
       [
         null, 
         0, 
-        -80
+        -87.4
       ]
     ], 
-    "timestamp": "2017-03-05T12:43:42.757Z"
+    "timestamp": "2017-03-05T12:53:28.353Z"
   }
 }
